@@ -3,7 +3,7 @@
 
 * Transcript
 ** Why the word *imaginary*?
-*** Reason 1: Advances in Neuroscience-inspired AI
+*** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
 
 **** AI
@@ -67,4 +67,4 @@ This is essentially searching for novel and
 surprising, but coherent text -- i.e.
 imagining.
 
-*** Reason 2:
+*** Reason 2: 
