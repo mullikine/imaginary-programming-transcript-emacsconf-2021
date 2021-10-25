@@ -6,7 +6,7 @@
 *** Reason 1: Advances in Neuroscience-inspired AI
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
 
-*** AI
+**** AI
 - Memory
 - Attention
 - Concepts
@@ -14,8 +14,8 @@
 - Navigation
 - Imagination
 
-*** Neuroscience
-**** hippocampus
+**** Neuroscience
+***** hippocampus
 - The hippocampus is vital for episodic memory.
 - Probably also vital for imagination.
 
@@ -57,4 +57,9 @@ creativity's that is the converse of that.
       episodic memory.
 #+END_SRC
 
-** 
+**** Beam-search on LLMs
+This algorithm is used to probe possible
+generations with an objective. That objective
+could be *suprisal*, mixed with coherence.
+
+*** Reason 2:
