@@ -5,7 +5,9 @@
 Dear fellow Emacs enthusiasts, I am honoured to have been allowed to do a talk for EmacsConf.
 
 My goal is to introduce people to a new style of
-programming I call imaginary.
+programming I call imaginary. It's based the
+field of prompt engineering, which has only
+been around for a couple of years now.
 
 It's not a conventional programming paradigm
 yet, but I think that is going to quickly
