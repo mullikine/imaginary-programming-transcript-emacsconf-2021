@@ -5,8 +5,10 @@
 Dear Emacs users, thank you for tuning in to
 my talk on Imaginary Programming.
 
-The goal of this talk is to introduce people
-to a style of programming which I call =Imaginary Programming=.
+My goal is to introduce people to a style of
+programming I call =Imaginary Programming=.
+It's certainly not the only way to apply LMs
+to programming.
 
 It may be classed as an unconventional
 programming paradigm in the same vein as =Reversible Computing=.
