@@ -12,9 +12,12 @@ only been around for a couple of years now.
 
 IP is not a conventional programming paradigm
 yet, but I think that it is going to quickly
-become conventional. I actually believe that
-having an imaginary component to ordinary
-programming will be mainstream very soon.
+become so. Actually, I think it will be
+mainstream very soon -- perhaps within a year,
+since people who understand the way GitHub's
+Copilot works will be quickly dissatisfied
+with the limiting and opaque functions that it
+provides. We are engineers, not consumers.
 
 This is due to the compelling, if not
 controversial, recent advances in the
