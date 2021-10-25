@@ -21,7 +21,7 @@
 - Memory, Imagination, and Predicting the Future A Common Brain Mechanism?
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4232337/
 
-***** hippocampus
+***** Hippocampus
 - The hippocampus is vital for episodic memory.
 - Probably also vital for imagination.
 
@@ -70,7 +70,19 @@ surprising generations may be given higher
 scores.
 
 This is essentially searching for novel and
-surprising, but coherent text -- i.e.
+surprising, yet 'coherent' text -- i.e.
 imagining.
 
 *** Reason 2: 
+
+** Information
+https://youtu.be/sMb00lz-IfE?t=66
+
+Information is about order.
+
+*** Randomness
+Pure information is purely random, but it's
+difficult to learn and recognise patterns, the
+more information rich it is.
+
+https://youtu.be/sMb00lz-IfE?t=269
