@@ -2,3 +2,34 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
+
+** Why the word *imaginary*?
+*** AI
+- Memory
+- Attention
+- Concepts
+- Planning
+- Navigation
+- Imagination
+
+*** Neuroscience
+**** hippocampus
+- The hippocampus is vital for episodic memory.
+- Probably also vital for imagination.
+
+If memory works as a reconstructive process
+then if we think about imagination as being a
+similar process but in this case it's a
+constructive process if we think of memory as
+trying to put your components that you have
+together in a way that your brain thinks
+looks and judges as familiar perhaps
+creativity's that is the converse of that
+you're still bringing together those
+components but now you're trying to create
+something novel that actually your brain
+judges as unfamiliar so I was thinking well
+if memory is heavily dependent on the
+hippocampus then maybe imagination is also a
+very heavily dependent on the same brain
+structure and the same processes.
