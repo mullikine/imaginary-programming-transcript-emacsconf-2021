@@ -8,7 +8,9 @@ My goal is to introduce people to a style of
 programming I call imaginary.
 
 It's not a conventional programming paradigm yet, but I think programming with LMs is going to quickly become an intrinsic part of normal
-programming, along with =reversible programming=, I think, due to recent capabilities of language models.
+programming, I think, due to recent advances in the capabilities of language models such as GPT-3.
+
+# along with =reversible programming=, 
 
 I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
