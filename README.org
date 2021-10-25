@@ -19,9 +19,6 @@ to how it would be a mistake to dismiss
 imaginary numbers or fractions as being
 conventional.
 
-who are unfamiliar with recent advances in LMs
-and their impact on programming.
-
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
