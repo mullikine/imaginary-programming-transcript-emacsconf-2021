@@ -14,7 +14,7 @@ an intrinsic part of normal programming for
 the masses anyway, due to recent advances in
 the capabilities of LMs such as GPT-3.
 
-# along with =reversible programming=, 
+=reversible programming= will also become more mainstream.
 
 I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
