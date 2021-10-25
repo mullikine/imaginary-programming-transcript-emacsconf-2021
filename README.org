@@ -59,7 +59,8 @@ creativity's that is the converse of that.
 
 **** Beam-search on LLMs
 This algorithm is used to probe possible
-generations with an objective. That objective
-could be *suprisal*, mixed with coherence.
+generations with an objective. Coherent and
+surprising generations may be given higher
+scores.
 
 *** Reason 2:
