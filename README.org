@@ -13,7 +13,11 @@ programming paradigm in the same vein as =Reversible Computing=.
 
 However, I would like to stress that
 programming with LMs is rapidly emerging as an
-intrinsic part of normal programming.
+intrinsic part of normal programming and to
+call it unconventional is a mistake, similarly
+to how it would be a mistake to dismiss
+imaginary numbers or fractions as being
+conventional.
 
 who are unfamiliar with recent advances in LMs
 and their impact on programming.
