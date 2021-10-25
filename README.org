@@ -14,7 +14,7 @@ an intrinsic part of normal programming for
 the masses anyway, due to recent advances in
 the capabilities of LMs such as GPT-3.
 
-This is what you get when you combine GPT-3, or free-as-in-freedom models such as GPT-3 with 
+This is what you get when you combine GPT-3, or free-as-in-freedom models such as GPT-3 with programming.
 
 =reversible programming= is another paradigm I think also become more mainstream.
 
