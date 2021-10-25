@@ -27,12 +27,33 @@ constructive process if we think of memory as
 trying to put your components that you have
 together in a way that your brain thinks
 looks and judges as familiar perhaps
-creativity's that is the converse of that
-you're still bringing together those
-components but now you're trying to create
-something novel that actually your brain
-judges as unfamiliar so I was thinking well
-if memory is heavily dependent on the
-hippocampus then maybe imagination is also a
-very heavily dependent on the same brain
-structure and the same processes.
+creativity's that is the converse of that.
+
+#+BEGIN_SRC text -n :async :results verbatim code
+  creativity
+  imagination
+      The converse of memory.
+  
+      https://youtu.be/0X-NdPtFKq0?t=1559
+      
+      You're still bringing together those
+      components but now you're trying to create
+      something novel that actually your brain
+      judges as unfamiliar.
+  
+      If memory is heavily depend on the
+      hippocampus then maybe imagination is also
+      a very heavily dependent on the same brain
+      structure and the same processes.
+  
+      We now know that it is.
+  
+  hippocampus
+      [#neuroscience]
+  
+      Involved with is reconstructing that
+      pulling all those parts together into a
+      coherent whole which then is recognized by
+      the rest of your brain as actually an
+      episodic memory.
+#+END_SRC
