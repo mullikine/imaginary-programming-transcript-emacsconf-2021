@@ -2,7 +2,6 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
-
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
