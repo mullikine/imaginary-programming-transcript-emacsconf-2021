@@ -2,7 +2,7 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
-Dear Emacs users, thank you for allowing me to
+Dear fellow Emacs users, thank you for allowing me to
 do a talk about Imaginary Programming.
 
 My goal is to introduce people to a style of
