@@ -7,8 +7,12 @@ Dear fellow Emacs enthusiasts, I am honoured to have been allowed to do a talk f
 My goal is to introduce people to a style of
 programming I call imaginary.
 
-It's not a conventional programming paradigm yet, but I think programming with LMs is going to quickly become an intrinsic part of normal
-programming, I think, due to recent advances in the capabilities of language models such as GPT-3.
+It's not a conventional programming paradigm
+yet, but I think that is going to quickly
+change and programming with large LMs will become
+an intrinsic part of normal programming for
+the masses anyway, due to recent advances in
+the capabilities of LMs such as GPT-3.
 
 # along with =reversible programming=, 
 
