@@ -21,7 +21,7 @@ be programming in this style if you want to, for example:
 - establish specific places in your code you are ok with using inference instead of computation.
 - use AI imagination to guide your programming.
 - interactively regenerate specific parts of your code when you re-look at it.
-- utilise the language you understand in order to frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself
+- utilise the language you understand in order to frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
 
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
