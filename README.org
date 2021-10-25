@@ -56,6 +56,9 @@ Also, if you have trained a language model on your own code:
 
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
+Demonstrate a history of usage of the word.
+2007, Google tech talk
+
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
 
 **** AGI (Artificial General Intelligence)
