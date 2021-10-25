@@ -8,7 +8,7 @@ My goal is to introduce people to a style of
 programming I call imaginary.
 
 It may be classed as an unconventional
-programming paradigm in the same vein as =Reversible Computing= but I think programming with LMs is going to quickly become an intrinsic part of normal
+programming paradigm in the same vein as =reversible= but I think programming with LMs is going to quickly become an intrinsic part of normal
 programming and to call it unconventional is
 a mistake, I think.
 
