@@ -4,6 +4,7 @@
 * Transcript
 
 ** Why the word *imaginary*?
+*** Google DeepMind's Demis Hassabis
 https://youtu.be/0X-NdPtFKq0?t=1559
 
 *** AI
