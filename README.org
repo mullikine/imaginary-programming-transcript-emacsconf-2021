@@ -17,10 +17,10 @@ I think it's as intrinsic to programming as imaginary numbers, fractions or nega
 
 It's certainly not the only way to be applying LMs
 to programming, however, and you would want to
-be programming in this style if you want to:
+be programming in this style if you want to, for example:
 - establish specific places in your code you are ok with using inference instead of computation.
-- use AI imagination to guide your programming
-- interactively regenerate specific parts of your code when you re-look at it
+- use AI imagination to guide your programming.
+- interactively regenerate specific parts of your code when you re-look at it.
 
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
