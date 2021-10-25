@@ -11,9 +11,9 @@ to a style of programming which I call =Imaginary Programming=.
 It may be classed as an unconventional
 programming paradigm in the same vein as =Reversible Computing=.
 
-However, I would like to stress that this is
-an emerging style, which I think will become
-an intrinsic part of normal programming.
+However, I would like to stress that
+programming with LMs is rapidly emerging as an
+intrinsic part of normal programming.
 
 who are unfamiliar with recent advances in LMs
 and their impact on programming.
