@@ -51,7 +51,7 @@ You would find 𝑖λ useful if you want to, from within the comfort of emacs li
 - use AI imagination to help you write concrete code.
 - interactively regenerate specific parts of your code when you revisit it.
 - frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
-- mock parts of your code
+- sketching or mocking parts of your code, say test suites, to generate fictional inputs, or avoid spending money
 
 If you have trained a language model on your own code:
 - use imaginary reflection
