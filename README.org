@@ -26,6 +26,9 @@ You would find 𝑖λ useful if you want to, for example:
   - frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
   - mock parts of your code
 
+If you have trained a language model on your own code:
+- use imaginary reflection
+
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
