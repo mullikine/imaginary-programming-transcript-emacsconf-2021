@@ -6,7 +6,10 @@
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
 
-**** AI
+**** AGI (Artificial General Intelligence)
+- Imagination is a core topic, overlooked
+  - [[calibre:Artificial Intelligence. A Modern Approach]]
+
 - Memory
 - Attention
 - Concepts
@@ -15,6 +18,9 @@
 - Imagination
 
 **** Neuroscience
+- Memory, Imagination, and Predicting the Future A Common Brain Mechanism?
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4232337/
+
 ***** hippocampus
 - The hippocampus is vital for episodic memory.
 - Probably also vital for imagination.
