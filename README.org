@@ -20,7 +20,7 @@ This is what you get when you combine GPT-3, or free-as-in-freedom language mode
 
 # I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
-This is certainly not the only way to be applying LMs
+And this is certainly not the only way you can be applying LMs
 to programming but it is an intimate one, as I'll demonstrate using 𝑖λ.
 
 You would find 𝑖λ useful if you want to, for example:
