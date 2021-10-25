@@ -17,7 +17,7 @@ mainstream very soon -- perhaps within a year,
 since people who understand the way GitHub's
 Copilot works will be quickly dissatisfied
 with the limiting and opaque functions that it
-provides. We are engineers, not consumers.
+provides; We are engineers, not consumers.
 
 This is due to the compelling, if not
 controversial, recent advances in the
