@@ -8,6 +8,8 @@ My goal is to introduce people to a new style of
 programming that I believe will be mainstream
 within the year, even if it goes by other names. 
 
+Or perhaps we'll be inundated with SAAS tools that present this stuff as magic instead.
+
 This is certainly not the only way that LMs can be applied to
 programming but I think this is an elegant way
 to do it. I'll demonstrate using my library
