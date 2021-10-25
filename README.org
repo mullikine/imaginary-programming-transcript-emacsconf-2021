@@ -13,13 +13,14 @@ only been around for a couple of years now.
 IP is not a conventional programming paradigm
 yet, but I think that it is going to quickly
 become so. Actually, I think it will be
-mainstream very soon -- perhaps within a year,
-since people who understand the way GitHub's
-Copilot works will be quickly dissatisfied
-with the limiting, opaque and functions that it
-and other magical tooling provides; We are
-engineers, not consumers and we want full
-control over our computers.
+mainstream within a year.
+
+# since people who understand the way GitHub's
+# Copilot works will be quickly dissatisfied
+# with the limiting, opaque and functions that it
+# and other magical tooling provides; We are
+# engineers, not consumers and we want full
+# control over our computers.
 
 This is due to the compelling, if not
 controversial, recent advances in the
