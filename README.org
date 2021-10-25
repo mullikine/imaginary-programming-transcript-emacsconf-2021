@@ -19,7 +19,7 @@ It's certainly not the only way to be applying LMs
 to programming, however but it is an intimate one, as I'll demonstrate with 𝑖λ.
 
 You would find 𝑖λ useful if you want to, for example:
-- Use emacs lisp to:
+- Use the comfort of emacs lisp to:
   - establish specific places in your code you are ok with using inference instead of computation.
   - use AI imagination to guide your programming.
   - interactively regenerate specific parts of your code when you re-look at it.
