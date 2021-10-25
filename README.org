@@ -2,24 +2,25 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
-Dear Emacs users, thank you for tuning in to
-my talk on Imaginary Programming.
+Dear Emacs users, thank you for allowing me to
+do a talk about Imaginary Programming.
 
 My goal is to introduce people to a style of
-programming I call =Imaginary Programming=.
-It's certainly not the only way to apply LMs
-to programming.
+programming I call imaginary.
 
-It may be classed as an unconventional
-programming paradigm in the same vein as =Reversible Computing=.
+It may be seen as an unconventional
+programming paradigm in the same vein as =Reversible Computing= but I think programming with LMs is going to quickly become an intrinsic part of normal
+programming and to call it unconventional is
+a mistake, I think.
 
-However, programming with LMs is rapidly
-emerging as an intrinsic part of normal
-programming and to call this unconventional is
-a mistake, I think, similarly to how it would
-be a mistake to dismiss imaginary numbers,
-fractions or negative numbers as being
-conventional.
+I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
+
+It's certainly not the only way to be applying LMs
+to programming, however, and you would want to
+be programming in this style if you want to:
+- establish specific places in your code you are ok with using inference instead of computation.
+- use AI imagination to guide your programming
+- interactively re-generate specific parts of your code
 
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
