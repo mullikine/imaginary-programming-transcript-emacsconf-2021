@@ -23,7 +23,7 @@ You would find 𝑖λ useful if you want to, for example:
   - establish specific places in your code you are ok with using inference instead of computation.
   - use AI imagination to help you write concrete code.
   - interactively regenerate specific parts of your code when you revisit it.
-  - utilise the language you understand in order to frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
+  - frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
 
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
