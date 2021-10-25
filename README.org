@@ -2,6 +2,18 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
+Dear Emacs users, thank you for listening to
+my talk on Imaginary Programming.
+
+The goal of this talk is to introduce people
+to a style of programming which I call =Imaginary Programming=.
+
+It may be classed as a non-conventional
+programming paradigm, along with =Reverse Computing=.
+
+who are unfamiliar with recent advances in LMs
+and their impact on programming.
+
 ** Why the word *imaginary*?
 *** Reason 1: Advances in Neuroscience-inspired AI towards computers that imagine
 + Google DeepMind's Demis Hassabis :: https://youtu.be/0X-NdPtFKq0?t=1559
