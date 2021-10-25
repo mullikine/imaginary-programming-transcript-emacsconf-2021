@@ -19,7 +19,7 @@ the capabilities of LMs such as GPT-3.
 # I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
 This is certainly not the only way to be applying LMs
-to programming, however but it is an intimate one, as I'll demonstrate with 𝑖λ.
+to programming but it is an intimate one, as I'll demonstrate using 𝑖λ.
 
 You would find 𝑖λ useful if you want to, for example:
 - within the comfort of emacs lisp:
