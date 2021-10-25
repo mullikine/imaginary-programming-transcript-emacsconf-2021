@@ -16,7 +16,7 @@ a mistake, I think.
 I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
 It's certainly not the only way to be applying LMs
-to programming, however but it is an intimate one.
+to programming, however but it is an intimate one, as I'll demonstrate with 𝑖λ.
 
 You would want to be programming in this style if you want to, for example:
 - establish specific places in your code you are ok with using inference instead of computation.
