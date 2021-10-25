@@ -44,7 +44,7 @@ doing the inference for us while employing
 
 # I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
-You would find 𝑖λ useful if you want to, from within the comfort of emacs lisp:
+You would find =𝑖λ.el= useful if you want to, from within the comfort of emacs lisp:
 - establish specific places in your code you are ok with using inference instead of computation.
 - use AI imagination to help you write concrete code.
 - interactively regenerate specific parts of your code when you revisit it.
