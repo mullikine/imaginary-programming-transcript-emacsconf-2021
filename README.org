@@ -12,7 +12,7 @@ yet, but I think that is going to quickly
 change and programming with large LMs will become
 an intrinsic part of normal programming (for
 the masses, anyway) due to recent advances in
-the capabilities of LMs such as GPT-3.
+the capabilities of LMs such as GPT-3, in order to reap the benefits that those language models present.
 
 This is what you get when you combine GPT-3, or free-as-in-freedom language models such as GPT-j with programming.
 
