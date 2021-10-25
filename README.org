@@ -13,12 +13,12 @@ to programming.
 It may be classed as an unconventional
 programming paradigm in the same vein as =Reversible Computing=.
 
-However, I would like to stress that
-programming with LMs is rapidly emerging as an
-intrinsic part of normal programming and to
-call it unconventional is a mistake, similarly
-to how it would be a mistake to dismiss
-imaginary numbers or fractions as being
+However, programming with LMs is rapidly
+emerging as an intrinsic part of normal
+programming and to call this unconventional is
+a mistake, I think, similarly to how it would
+be a mistake to dismiss imaginary numbers,
+fractions or negative numbers as being
 conventional.
 
 ** Why the word *imaginary*?
