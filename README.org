@@ -53,7 +53,7 @@ You would find 𝑖λ useful if you want to, from within the comfort of emacs li
 - frame complicated or intractable problems as tasks for the AI to implement/deal with instead of yourself.
 - sketching or mocking parts of your code, say test suites, to generate fictional inputs, or avoid spending money running real computations on APIs
 
-If you have trained a language model on your own code:
+Also, if you have trained a language model on your own code:
 - use imaginary reflection
 
 ** Why the word *imaginary*?
