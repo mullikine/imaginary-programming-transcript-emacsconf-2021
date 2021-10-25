@@ -16,9 +16,9 @@ the capabilities of LMs such as GPT-3.
 
 =reversible programming= is another paradigm I think also become more mainstream.
 
-I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
+# I think it's as intrinsic to programming as imaginary numbers, fractions or negative numbers are intrinsic to algebra.
 
-It's certainly not the only way to be applying LMs
+This is certainly not the only way to be applying LMs
 to programming, however but it is an intimate one, as I'll demonstrate with 𝑖λ.
 
 You would find 𝑖λ useful if you want to, for example:
