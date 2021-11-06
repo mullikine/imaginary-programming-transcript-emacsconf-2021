@@ -112,6 +112,7 @@ past times.
   - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
 
 * Imaginary Programming
+** ilambda
 
 * Paracosm Browser
 ** Pen.el v2
