@@ -1,5 +1,8 @@
 * Imaginary Programming with Emacs
-Language models are our best friends in the AI model menagerie.
+LMs are our best friends in the AI model
+menagerie because they make things
+intelligible -- by understanding our textual
+languages.
 
 Objectives:
 - Imaginary Computing
