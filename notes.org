@@ -47,7 +47,8 @@ Decentralised triadic relations network.
 * Freedom and GPL-3
 
 * Freedom and blockchain
-- Language models very large
+- Language models are ballooning in size like cancer
+- Break up the language model into semiotic triadic relation
 
 * Imaginary Programming
 
