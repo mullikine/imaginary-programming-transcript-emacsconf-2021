@@ -37,7 +37,6 @@ past times.
 #+END_SRC
 
 
-
 * Imaginary Programming
 
 * Paracosm Browser
