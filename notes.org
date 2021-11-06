@@ -1,7 +1,7 @@
 * Imaginary Programming with Emacs
 
 Objectives:
-- Imaginary Computing
+- Quickly discuss Imaginary Computing
   - Imaginary Programming
   - AI Art
   - Imaginary Web
