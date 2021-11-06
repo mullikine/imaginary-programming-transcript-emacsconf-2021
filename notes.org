@@ -49,6 +49,7 @@ Decentralised triadic relations network.
 * Freedom and blockchain
 - Language models are ballooning in size like cancer
 - Break up the language model into semiotic triadic relation
+  - semiotic NFTs
 
 * Imaginary Programming
 
