@@ -9,6 +9,8 @@ Objectives:
 
 - Demonstrate 𝑖λ
 
+* Freedom
+
 * Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
@@ -49,7 +51,39 @@ Decentralised triadic relations network.
 * Paracosm Browser
 ** Pen.el v2
 #+BEGIN_SRC text -n :async :results verbatim code
+  phenomenology
+      The philosophical study of the structures
+      of experience and consciousness.
+  
+      As a philosophical movement it was founded
+      in the early years of the 20th century by
+      Edmund Husserl and was later expanded upon
+      by a circle of his followers at the
+      universities of Göttingen and Munich in
+      Germany.
+  
+  firstness
+      [#phenomenology]
+  
+      Something that exists in itself.
+  
+  secondness
+      [#phenomenology]
+  
+      Must be related to something else.
+  
+  thirdness
+      [#phenomenology]
+  
+      Requires a more complex relationship than
+      secondness, either a relation between
+      three things, or a relation between
+      relations, or perhaps both at the same
+      time.
+  
   impure imaginary reality
+  second imaginary reality
+  third imaginary reality
       This is one's experience of another's
       imagination, whether that be another
       biological mind or a Neural Network.
