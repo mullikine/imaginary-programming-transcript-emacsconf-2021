@@ -1,0 +1,88 @@
+Objectives:
+- Imaginary Computing
+  - Imaginary Programming
+  - AI Art
+  - Imaginary Web
+    - Paracosm vs Metaverse
+
+- Demonstrate 𝑖λ
+
+* Simulacra and Science Fiction
+Jean Baudrillard speaks about the gap
+between the real and the imaginary.
+
+We no longer imagine a world radically
+different from the real one, but
+rather a world that's a mere expansion
+of the real one.
+
+In the postmodern society the gap
+between the real and the imaginary
+disappears completely, and we are no
+longer capable of ideal projections
+(of imagining new worlds).
+    
+We can only imagine mere
+reconfigurations of our world, or
+simply relive the ideal projections of
+past times.
+
+* Imaginary Web
+#+BEGIN_SRC text -n :async :results verbatim code
+  imaginary internet
+  imaginary web
+      An imaginary world-wide-web is an
+      analog of the World-Wide-Web imagined by a
+      language model.
+#+END_SRC
+
+
+
+* Imaginary Programming
+
+* Paracosm Browser
+** Pen.el v2
+#+BEGIN_SRC text -n :async :results verbatim code
+  impure imaginary reality
+      This is one's experience of another's
+      imagination, whether that be another
+      biological mind or a Neural Network.
+#+END_SRC
+
+#+BEGIN_SRC text -n :async :results verbatim code
+  imaginary reality
+  paracosm
+      The distinction between this and virtual
+      reality is that virtual reality isn't
+      really concerned so much with Neural
+      Networks for a lazily generated potential
+      reality that is constructed as one's own
+      mind prompts another.
+      
+      Also virtual reality is engineered for
+      people to explore where imaginary reality
+      is generated at will by a user and does
+      not follow rules.
+      
+      Imaginary reality takes place within a
+      walled garden of a single mind /
+      imagination forming around another.
+      
+      The interpretation of the output of one
+      mind/neural net as have been sensed and
+      interpreted by another mind / Neural
+      Network, in real time.
+  
+      Types:
+      - pure imaginary reality
+      - impure imaginary reality
+  
+  pure imaginary reality
+      This is one's personal introspective
+      experience of their own imagination.
+  
+  impure imaginary reality
+      This is one's experience of another's
+      imagination, whether that be another
+      biological mind or a Neural Network.
+#+END_SRC

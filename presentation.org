@@ -1,0 +1,459 @@
+#+MACRO: NEWLINE @@latex:\\@@ @@html:<br>@@ @@ascii:|@@
+
+#+BEGIN_COMMENT
+https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+
+Relation symbols
+http://garsia.math.yorku.ca/MPWP/LATEXmath/node8.html
+
+
+https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/327847
+\newcommand{\R}{\mathbb{R}}
+
+@@latex:\includegraphics{/home/shane/dump/home/shane/notes/uni/cosc/420_Neural Networks_S1/research/case-for-learned-index-structures/frontpage.png}@@
+#+END_COMMENT
+
+#+TITLE:     Presenting... {{{NEWLINE}}} /*Imaginary Programming with Emacs*/ {{{NEWLINE}}}
+#+AUTHOR:    Shane Mulligan {{{NEWLINE}}}
+#+EMAIL:     mullikine@gmail.com
+#+DATE:      <2021-03-01 Mon>
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+# #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:https://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:
+#+LINK_HOME:
+
+#+HTML_DOCTYPE: <!DOCTYPE html>
+#+HTML_HEAD: <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css" />
+#+HTML_HEAD: <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+# #+INCLUDE: "beamer-config.org"
+
+#+BEAMER_THEME: Rochester [height=20pt]
+
+#+ATTR_LATEX: :center nil
+
+* Presentation
+*** Following along
+**** Repositories for following along
+#+latex: {\footnotesize
+| http://github1s.com/semiosis/pen.el                                           |
+| http://github1s.com/semiosis/prompts                                          |
+| https://mullikine.github.io/posts/imaginary-programming-with-gpt-3/           |
+#+latex: }
+
+#+latex: {\tiny
+_*slides*_
+| http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021 |
+#+latex: }
+
+#+latex: {\tiny
+_*glossary*_
+| http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt |
+#+latex: }
+
+**** Demo
+
+* Preliminaries
+** GPT-3
+*** Text Generator
+**** Background knowledge
+#+latex: {\footnotesize
+- =GPT-3= is a =seq2seq= model (a text generator)
+  - It's stochastic but can be configured to be deterministic.
+#+latex: }
+
+**** Key concepts
+#+latex: {\footnotesize
+- prompt,
+- completion, and
+- tokens
+#+latex: }
+
+**** Limitations
+#+latex: {\footnotesize
+Combined, the text prompt and generated
+completion must be below 2048 tokens (roughly
+~1500 words).
+
++ context-stuffing :: With only 2048 tokens, you need to make
+      use of your real estate by providing
+      instructions and making implicit
+      information explicit.
+#+latex: }
+
+** A new programming paradigm
+*** Prompt Engineering
+**** Characteristics
+#+latex: {\footnotesize
+- declarative, like =html=
+- stochastic, like =problog=
+- Unlocks new types of applications
+- Speeds up development
+#+latex: }
+
+*** Some prompts I've made
+**** =generate-vim-command.prompt=
+#+latex: {\footnotesize
+#+BEGIN_SRC text -n :async :results verbatim code
+  Vim
+
+  Insert "Q: " at the start of the line
+  :%s/^/Q: /g.
+  ###
+  Remove whitespace from the start of each line
+  :%s/^\s*/\1/g
+  ###
+  Join each line with the next line
+  :1,$j
+  ###
+  Make all occurrences of Steve lowercase
+  :%s/Steve/steve/g
+  ###
+  <1>
+#+END_SRC
+#+latex: }
+
+*** Tasks suitable for GPT-3
+**** Classification
+- Tweet Sentiment
+- Company categorization
+- Labeling parts of speech
+
+#+latex: {\footnotesize
+- http://github.com/semiosis/prompts/blob/master/prompts/tweet-sentiment-classifier.prompt
+- http://github.com/semiosis/prompts/blob/master/prompts/keyword-extraction.prompt
+#+latex: }
+
+*** Tasks suitable for GPT-3
+**** Generation
+- Idea Generator
+
+Come up with silly inventions.
+
+[[./silly-inventions.png]]
+
+*** Tasks suitable for GPT-3
+**** Conversation
+- Q&A agent
+- Sarcastic chatbot
+
+#+latex: {\footnotesize
+http://github.com/semiosis/prompts/blob/master/prompts/sarcastic-response.prompt
+#+latex: }
+
+*** Design patterns
+Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+**** 1. Reflective description of the task
+State what the prompt does at the start.
+
+At the start of the example we state in plain
+language what the classifier does:
+
+#+BEGIN_SRC text -n :async :results verbatim code
+  This is a tweet sentiment classifier.
+#+END_SRC
+
+By stating this up front, it helps the API
+understand much more quickly what the goal of
+the response is supposed to be and you’ll end
+needing to provide fewer examples.
+
+*** Design patterns
+Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+**** 2. Use separators between examples
+
+Example: =###=.
+
+You can use other characters or line breaks,
+but =###= works pretty consistently and is
+also an easy to use stop sequence.
+
+Whatever separator you use, make sure that
+it’s clear to the API where an example starts
+and stops.
+
+*** Design patterns
+Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+**** 3. Mutiplexer Part 1
+Make a prompt more efficient / cheaper.
+
+Design it to generate multiple results from
+one API call.
+
+#+latex: {\tiny
+#+BEGIN_SRC text -n :async :results verbatim code
+This is a tweet sentiment classifier
+Tweet: "I loved the new Batman movie!"
+Sentiment: Positive
+###
+Tweet: "I hate it when my phone battery dies"
+Sentiment: Negative
+###
+Tweet: "My day has been 👍"
+Sentiment: Positive
+###
+Tweet: "This is the link to the article"
+Sentiment: Neutral
+###
+Tweet text
+#+END_SRC
+
+#+latex: }
+
+*** Design patterns
+Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+**** 3. Mulitplexer Part 2
+#+latex: {\tiny
+#+BEGIN_SRC text -n :async :results verbatim code
+1. "I loved the new Batman movie!"
+2. "I hate it when my phone battery dies"
+3. "My day has been 👍"
+4. "This is the link to the article"
+5. "This new music video blew my mind"
+
+Tweet sentiment ratings:
+1: Positive
+2: Negative
+3: Positive
+4: Neutral
+5: Positive
+
+###
+Tweet text
+#+END_SRC
+#+latex: }
+
+*** Design patterns
+Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+**** 3. Multiplexer Part 3
+#+latex: {\footnotesize
+#+BEGIN_SRC text -n :async :results verbatim code
+"I can't stand homework"
+"This sucks. I'm bored 😠"
+"I can't wait for Halloween!!!"
+"My cat is adorable ❤️❤️"
+"I hate chocolate"
+Tweet sentiment ratings:
+1.
+#+END_SRC
+#+latex: }
+
+*** Techniques
+**** Query Reformulation
+https://www.sciencedirect.com/topics/computer-science/query-reformulation
+
+You can improve the quality of the responses
+by making a longer more diverse list in your
+prompt.
+
+One way to do that is to start off with one
+example, let the API generate more and select
+the ones that you like best and add them to
+the list.
+
+A few more high-quality variations can
+dramatically improve the quality of the
+responses.
+
+* Explanations
+** Using =pen.el=
+*** =pen.el=
+**** =pen.el=: Prompt Engineering in emacs
+
+#+latex: {\footnotesize
+=pen.el= facilitates the creation,
+development, discovery and usage of prompts to
+a Language Model such as GPT-3.
+
+- Create elisp functions based on GPT-3 prompts
+- Chain GPT-3 queries together using keyboard macros and functions
+- Interactively query, generate and transfrom both prose and code
+- Use GPT-3 as a search engine within emacs
+#+latex: }
+
+** Using =pen.el=
+*** =pen.el=
+**** =pen.el= modes Part 1
+#+latex: {\footnotesize
+_*Prompt-Engineering Minor Mode*_
+
+=prompt-engineering-mode= is a global minor
+mode for emacs that provides keybindings for
+creating and executing prompts generally
+across emacs.
+
+_*Prompt Description Major Mode*_
+
+=prompt-description-mode= is a major mode for
+editing =.prompt= files.
+
+The =.prompt= file format is based on YAML and
+an associated schema, which defines the keys
+which are expected.
+#+latex: }
+
+** Using =pen.el=
+*** =pen.el=
+**** =pen.el= modes Part 2
+#+latex: {\footnotesize
+_*Pen Messenger Minor Mode*_
+
+=pen-messenger-mode= is a minor mode for
+enhancing an emacs-based messenger client with
+GPT-3 capabilities, such as emoji generation.
+
+_*Pen Conversation Mode*_
+
+=prompt-conversation-mode= is a major mode designed to facilitate
+ongoing conversation with a prompt-based GPT-3 chatbot.
+
+_*GPT-3 Training Mode*_
+
+The goal of this mode is to facilitate the
+workflow of training on OpenAI's API.
+#+latex: }
+
+*** Prompt YAML format Part 1
+**** =meeting-bullets-to-summary.prompt=
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  title: "meeting bullet points to summary"
+  prompt: |+
+      Convert my short hand into a first-hand
+      account of the meeting:
+  
+      <1>
+  
+      Summary:
+  engine: "davinci-instruct-beta"
+  temperature: 0.7
+  max-tokens: 60
+#+END_SRC
+
+*** Prompt YAML format Part 2
+**** =meeting-bullets-to-summary.prompt=
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  top-p: 1
+  frequency-penalty: 0.0
+  presence-penalty: 0.0
+  best-of: 1
+  stop-sequences:
+  - "\n\n"
+  conversation-mode: no
+  stitch-max: 0
+#+END_SRC
+
++ stitch-max :: Keep stitching together until reaching this limit.
+                This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+
+*** Prompt YAML format: Part 3
+**** =meeting-bullets-to-summary.prompt=
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  vars:
+  - "notes"
+  examples:
+  - |+
+      Tom: Profits up 50%
+      Jane: New servers are online
+      Kjel: Need more time to fix software
+      Jane: Happy to help
+      Parkman: Beta testing almost done
+#+END_SRC
+
+* =semiosis=
+** =pen.el=
+*** =Prompts as functions=
+**** =pen-generate-prompt-functions=
+Generate prompt functions for the files in the
+prompts directory Function names are prefixed
+with =pen-pf-= for easy searching.
+
+http://github.com/semiosis/prompts
+
+** =examplary=
+*** =examplary=: examples as functions
+An example-oriented DSL that can be used to
+construct and compose NLP tasks.
+
+Why is a DSL needed for this? Just to make the
+code a little more terse.
+
+**** Regex
+https://github.com/pemistahl/grex
+
+#+latex: {\footnotesize
+#+BEGIN_SRC clojure -n :i clj :async :results verbatim code
+  (def regex
+    "example 1\nexample2" "^example [12]$"
+    "example 2\nexample3" "^example [23]$"
+    "pi4\npi5" "^pi[45]$")
+#+END_SRC
+#+latex: }
+
+*** =examplary=: examples as functions
+**** Analogy
+#+latex: {\footnotesize
+#+BEGIN_SRC clojure -n :i clj :async :results verbatim code
+  (def analogy
+    ;; Each line is a training example.
+    "NNs" "NNs are like genetic algorithms in
+    that both are systems that learn from
+    experience"
+    "Social media" "Social media is like a
+    market in that both are systems that
+    coordinate the actions of many
+    individuals.")
+
+  (def field
+    "chemistry" "study of chemicals"
+    "biology" "study of living things")
+#+END_SRC
+#+latex: }
+
+* Demonstrations
+*** Something funny
+**** Vexate a simple instruction
+[[./complicate.png]]
+
+*** Something funny
+**** How to crack an egg
+[[./crack-an-egg.png]]
+
+*** Create a prompt
+**** Ask the audience
+- What type of text to generate
+  - Could be code, prose, etc.
+
+* Appendix
+** Additional reading
+*** Tutorials
+**** Ruby
+#+latex: {\footnotesize
+https://www.twilio.com/blog/generating-cooking-recipes-openai-gpt3-ruby
+#+latex: }

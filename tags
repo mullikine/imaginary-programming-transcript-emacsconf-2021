@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/d5bcb52b/
+0. PREAMBLE	LICENSE.md	/^#### 0. PREAMBLE$/;"	t
+1. APPLICABILITY AND DEFINITIONS	LICENSE.md	/^#### 1. APPLICABILITY AND DEFINITIONS$/;"	t
+10. FUTURE REVISIONS OF THIS LICENSE	LICENSE.md	/^#### 10. FUTURE REVISIONS OF THIS LICENSE$/;"	t
+11. RELICENSING	LICENSE.md	/^#### 11. RELICENSING$/;"	t
+2. VERBATIM COPYING	LICENSE.md	/^#### 2. VERBATIM COPYING$/;"	t
+3. COPYING IN QUANTITY	LICENSE.md	/^#### 3. COPYING IN QUANTITY$/;"	t
+4. MODIFICATIONS	LICENSE.md	/^#### 4. MODIFICATIONS$/;"	t
+5. COMBINING DOCUMENTS	LICENSE.md	/^#### 5. COMBINING DOCUMENTS$/;"	t
+6. COLLECTIONS OF DOCUMENTS	LICENSE.md	/^#### 6. COLLECTIONS OF DOCUMENTS$/;"	t
+7. AGGREGATION WITH INDEPENDENT WORKS	LICENSE.md	/^#### 7. AGGREGATION WITH INDEPENDENT WORKS$/;"	t
+8. TRANSLATION	LICENSE.md	/^#### 8. TRANSLATION$/;"	t
+9. TERMINATION	LICENSE.md	/^#### 9. TERMINATION$/;"	t
+ADDENDUM: How to use this License for your documents	LICENSE.md	/^### ADDENDUM: How to use this License for your documents$/;"	S
+GNU Free Documentation License	LICENSE.md	/^### GNU Free Documentation License$/;"	S
