@@ -101,9 +101,9 @@ past times.
       to other elements within the system.
 #+END_SRC
 
-* Freedom and GPL-3
+** Freedom and GPL-3
 
-* Freedom and blockchain
+** Freedom and blockchain
 - Language models are ballooning in size like cancer
 - Break up the language model into semiotic triadic relation
   - semiotic NFTs
