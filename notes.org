@@ -115,6 +115,11 @@ Problem with language models is they are so large and hidden behind SAAS.
 * Imaginary Programming
 ** ilambda
 
+** Methodology
+
+** Paradigm
+*** Literate programming with =org-mode=
+
 * Paracosm Browser
 ** Pen.el v2
 #+BEGIN_SRC text -n :async :results verbatim code
