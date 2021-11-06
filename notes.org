@@ -21,6 +21,7 @@ Objectives:
 - [[https://arxiv.org/abs/2107.13586][https://arxiv.org/abs/2107.13586 Pre-train, Prompt, and Predict]]
 
 * Imaginary Computing
+** AI Imagination
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
 - AI Art described by AI
   - https://mullikine.github.io/posts/alephalpha-for-alttext/
