@@ -38,7 +38,7 @@ past times.
       language model.
 #+END_SRC
 
-* Language based on signs
+* Language based on sign relations
 #+BEGIN_SRC text -n :async :results verbatim code
   structural linguistics
   structuralism
