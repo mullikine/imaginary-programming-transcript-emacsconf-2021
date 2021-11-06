@@ -39,6 +39,9 @@ past times.
 * Language based on signs
 ** iNFTs
 
+* Blockchain
+Decentralised triadic relations network.
+
 * Imaginary Programming
 
 * Paracosm Browser
