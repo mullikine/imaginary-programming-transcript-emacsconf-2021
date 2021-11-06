@@ -48,6 +48,7 @@ past times.
   - semiotic NFTs
   - Propose a decentralised triadic relations network.
   - https://semiosis.github.io/protocol/
+  - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
 
 * Imaginary Programming
 
