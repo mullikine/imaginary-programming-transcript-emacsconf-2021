@@ -1,7 +1,7 @@
 * Imaginary Programming with Emacs
 Objectives:
 - Imaginary Computing
-  - AI Art
+  - Discussing AI-generated art with an AI
   - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
@@ -26,6 +26,22 @@ Objectives:
 An NFT is like a trading card, or piece of media, and as people
 
 - https://alethea.ai/
+
+** Imaginary Web
+ #+BEGIN_SRC text -n :async :results verbatim code
+   imaginary internet
+   imaginary web
+       An imaginary world-wide-web is an
+       analog of the World-Wide-Web imagined by a
+       language model.
+ #+END_SRC
+
+*** Paracosm vs Metaverse
+- Paracosm
+  - Privacy
+  - Freedom of imagination
+- Metaverse
+  - Getting cozy with Mark Zuckerberg's imagination
 
 * Philosophy
 ** Simulacra and Science Fiction
@@ -83,15 +99,6 @@ past times.
       self-regulating semiotic system whose
       elements are defined by their relationship
       to other elements within the system.
-#+END_SRC
-
-* Imaginary Web
-#+BEGIN_SRC text -n :async :results verbatim code
-  imaginary internet
-  imaginary web
-      An imaginary world-wide-web is an
-      analog of the World-Wide-Web imagined by a
-      language model.
 #+END_SRC
 
 * Freedom and GPL-3
