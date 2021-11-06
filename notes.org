@@ -2,6 +2,7 @@
 Objectives:
 - Imaginary Computing
   - AI Art
+  - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
 - Philosophy
@@ -9,14 +10,15 @@ Objectives:
 - Imaginary Programming
   - Demonstrate =ilambda.el=
 
-* Intelligent NFTs
-- https://alethea.ai/
-
 * Imaginary Computing
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
 - AI Art described by AI
   - https://mullikine.github.io/posts/alephalpha-for-alttext/
   - https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/
+** Intelligent NFTs
+An NFT is like a trading card, or piece of media, and as people
+
+- https://alethea.ai/
 
 * Philosophy
 ** Simulacra and Science Fiction
