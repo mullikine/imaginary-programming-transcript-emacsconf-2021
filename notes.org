@@ -49,6 +49,7 @@ past times.
       biological mind or a Neural Network.
 #+END_SRC
 
+** Definitions
 #+BEGIN_SRC text -n :async :results verbatim code
   imaginary reality
   paracosm
