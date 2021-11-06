@@ -113,12 +113,12 @@ Problem with language models is they are so large and hidden behind SAAS.
   - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
 
 * Imaginary Programming
-** ilambda
-
 ** Methodology
 
 ** Paradigm
 *** Literate programming with =org-mode=
+
+** ilambda
 
 * Paracosm Browser
 ** Pen.el v2
