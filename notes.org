@@ -1,5 +1,5 @@
 * Imaginary Programming with Emacs
-Language models are our computing companions.
+Language models are our best friends in the AI model menagerie.
 
 Objectives:
 - Imaginary Computing
