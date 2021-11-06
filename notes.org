@@ -1,12 +1,12 @@
 * Imaginary Programming with Emacs
 Objectives:
 - Imaginary Computing
-  - Imaginary Programming
   - AI Art
   - Imaginary Web
     - Paracosm vs Metaverse
 - Philosophy
   - Simulacra and Science Fiction
+- Imaginary Programming
 - Demonstrate =ilambda.el=
 
 * Intelligent NFTs
