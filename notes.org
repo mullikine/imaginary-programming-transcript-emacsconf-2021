@@ -102,8 +102,9 @@ past times.
 #+END_SRC
 
 ** Freedom and GPL-3
+Problem with language models is they are so large and hidden behind SAAS.
 
-** Freedom and blockchain
+** Solution: Freedom and blockchain
 - Language models are ballooning in size like cancer
 - Break up the language model into semiotic triadic relation
   - semiotic NFTs
