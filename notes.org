@@ -66,7 +66,7 @@ simply relive the ideal projections of
 past times.
 
 ** Epistemology and alethiology
-https://arxiv.org/abs/2110.06674
+- https://arxiv.org/abs/2110.06674
 
 ** Structuralism: Language based on sign relations
 #+BEGIN_SRC text -n :async :results verbatim code
