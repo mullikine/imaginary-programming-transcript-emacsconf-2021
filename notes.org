@@ -7,6 +7,7 @@ Objectives:
     - Paracosm vs Metaverse
 - Philosophy
   - Simulacra and Science Fiction
+  - Truth
 - Imaginary Programming
   - Demonstrate =ilambda.el=
 
@@ -63,6 +64,9 @@ We can only imagine mere
 reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
+
+** Epistemology and alethiology
+https://arxiv.org/abs/2110.06674
 
 ** Structuralism: Language based on sign relations
 #+BEGIN_SRC text -n :async :results verbatim code
