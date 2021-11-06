@@ -1,7 +1,7 @@
 * Imaginary Programming with Emacs
 Objectives:
 - Imaginary Computing
-  - Discussing AI-generated art with an AI
+  - Discussing AI-generated artwork with an AI
   - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
