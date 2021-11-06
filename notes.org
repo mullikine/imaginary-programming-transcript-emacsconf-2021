@@ -7,7 +7,7 @@ Objectives:
 - Philosophy
   - Simulacra and Science Fiction
 - Imaginary Programming
-- Demonstrate =ilambda.el=
+  - Demonstrate =ilambda.el=
 
 * Intelligent NFTs
 - https://alethea.ai/
