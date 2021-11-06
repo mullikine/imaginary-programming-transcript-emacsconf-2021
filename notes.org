@@ -38,6 +38,8 @@ past times.
       language model.
 #+END_SRC
 
+* Language based on signs
+
 * Freedom and GPL-3
 
 * Freedom and blockchain
@@ -45,6 +47,7 @@ past times.
 - Break up the language model into semiotic triadic relation
   - semiotic NFTs
   - Propose a decentralised triadic relations network.
+  - https://semiosis.github.io/protocol/
 
 * Imaginary Programming
 
