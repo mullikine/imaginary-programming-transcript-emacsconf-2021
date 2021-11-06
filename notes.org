@@ -8,6 +8,7 @@ Objectives:
 - Philosophy
   - Simulacra and Science Fiction
   - Truth (epistemology and alethiology)
+  - Structuralism: Language based on sign relations
 - Imaginary Programming
   - Demonstrate =ilambda.el=
 
