@@ -117,6 +117,7 @@ Problem with language models is they are so large and hidden behind SAAS.
 
 ** Paradigm
 *** Literate programming with =org-mode=
+An extension of literate programming.
 
 ** ilambda
 
