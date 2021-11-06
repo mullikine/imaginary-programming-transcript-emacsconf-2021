@@ -37,6 +37,7 @@ past times.
 #+END_SRC
 
 * Language based on signs
+** iNFTs
 
 * Imaginary Programming
 
