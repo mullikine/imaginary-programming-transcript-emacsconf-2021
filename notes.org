@@ -14,6 +14,7 @@ Objectives:
 - [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt][imaginary programming glossary]]
 - [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-computing.txt][imaginary computing glossary]]
 - [[http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt][semiosis protocol glossary]]
+- [[http://github.com/semiosis/glossaries-gh/blob/master/pen.el.txt][Pen.el glossary]]
 
 * Imaginary Computing
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
