@@ -1,16 +1,25 @@
 * Imaginary Programming with Emacs
 Objectives:
-- Quickly discuss Imaginary Computing
+- Imaginary Computing
   - Imaginary Programming
   - AI Art
   - Imaginary Web
     - Paracosm vs Metaverse
+- Philosophy
+  - Simulacra and Science Fiction
 - Demonstrate =ilambda.el=
+
+* Intelligent NFTs
+- https://alethea.ai/
 
 * Imaginary Computing
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
+- AI Art described by AI
+  - https://mullikine.github.io/posts/alephalpha-for-alttext/
+  - https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/
 
-* Simulacra and Science Fiction
+* Philosophy
+** Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
 
@@ -30,16 +39,7 @@ reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
 
-* Imaginary Web
-#+BEGIN_SRC text -n :async :results verbatim code
-  imaginary internet
-  imaginary web
-      An imaginary world-wide-web is an
-      analog of the World-Wide-Web imagined by a
-      language model.
-#+END_SRC
-
-* Language based on sign relations
+** Structuralism: Language based on sign relations
 #+BEGIN_SRC text -n :async :results verbatim code
   structural linguistics
   structuralism
@@ -48,23 +48,23 @@ past times.
       The theoretical position that finds
       meaning in the relation between things,
       rather than in things in isolation.
-      
+  
       In other words, it gives primacy to
       pattern over substance.
-      
+  
       Example:
           To take a crude example, the colors
           red, green, and amber take on the
           meanings “stop,” “go,” and “caution”
           in relation to each other, in the
           context of a traffic light.
-      
+  
           In some other context, and in
           opposition to other colors, red may
           mean something completely different,
           such as socialism or communism, or
           humanity or sacrifice.
-      
+  
       Such meanings may be either part of a
       universal pattern or culturally
       determined.
@@ -74,6 +74,15 @@ past times.
       self-regulating semiotic system whose
       elements are defined by their relationship
       to other elements within the system.
+#+END_SRC
+
+* Imaginary Web
+#+BEGIN_SRC text -n :async :results verbatim code
+  imaginary internet
+  imaginary web
+      An imaginary world-wide-web is an
+      analog of the World-Wide-Web imagined by a
+      language model.
 #+END_SRC
 
 * Freedom and GPL-3
