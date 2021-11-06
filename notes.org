@@ -6,8 +6,7 @@ Objectives:
   - AI Art
   - Imaginary Web
     - Paracosm vs Metaverse
-
-- Demonstrate 𝑖λ
+- Demonstrate =ilambda.el=
 
 * Imaginary Computing
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
