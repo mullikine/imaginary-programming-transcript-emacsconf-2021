@@ -1,4 +1,6 @@
 * Imaginary Programming with Emacs
+Language models are our computing companions.
+
 Objectives:
 - Imaginary Computing
   - AI imagination
