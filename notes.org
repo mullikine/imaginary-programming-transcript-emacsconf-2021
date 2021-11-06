@@ -38,18 +38,13 @@ past times.
       language model.
 #+END_SRC
 
-* Language based on signs
-** iNFTs
-
-* Blockchain
-Decentralised triadic relations network.
-
 * Freedom and GPL-3
 
 * Freedom and blockchain
 - Language models are ballooning in size like cancer
 - Break up the language model into semiotic triadic relation
   - semiotic NFTs
+  - Propose a decentralised triadic relations network.
 
 * Imaginary Programming
 
