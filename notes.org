@@ -1,6 +1,7 @@
 * Imaginary Programming with Emacs
 Objectives:
 - Imaginary Computing
+  - AI imagination
   - Discussing AI-generated artwork with an AI
   - Intelligent NFTs
   - Imaginary Web
