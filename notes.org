@@ -9,6 +9,9 @@ Objectives:
 
 - Demonstrate 𝑖λ
 
+* Imaginary Computing
+- [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
+
 * Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
