@@ -1,5 +1,4 @@
 * Imaginary Programming with Emacs
-
 Objectives:
 - Quickly discuss Imaginary Computing
   - Imaginary Programming
