@@ -351,7 +351,7 @@ blockchains.
 * ilambda
 *** 𝑖λ (ilambda.el)
 **** Code
-An =IP= library named =𝑖λ.el= for emacs.
+An =IP= library named =𝑖lambda.el= for emacs.
 
 + source :: http://github.com/semiosis/pen.el/blob/master/src/ilambda.el
 + other languages (WIP) :: http://github.com/semiosis/ilambda
