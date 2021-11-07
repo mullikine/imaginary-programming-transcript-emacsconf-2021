@@ -150,6 +150,8 @@ An imaginary-web browser for emacs.
 - Metaverse
   - Getting cozy with Mark Zuckerberg's imaginarium, an intellectual prison
 
+* Philosophy
+
 * Preliminaries
 ** GPT-3
 *** Text Generator
