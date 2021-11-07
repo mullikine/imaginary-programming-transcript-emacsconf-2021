@@ -180,7 +180,8 @@ Benefits:
 
 *** Imaginary Computing: Paracosm vs Metaverse
 **** more emacs
-- [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters]]
+- [[https://semiosis.github.io/ii/][Imaginary interpreters]]
+- [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters: Prolog example]]
 
 *** Paracosm vs Metaverse
 **** Definitions
