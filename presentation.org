@@ -188,6 +188,8 @@ Benefits:
 - [[https://mullikine.github.io/posts/generating-grammars-with-codex/][Create BNF from descriptions and interpret BNF]]
 - [[https://mullikine.github.io/posts/codex-is-reversible-computing-exemplified/][Reversible computing (input or program from output)]]
 
+**** ࿋
+#+latex: {\tiny
 The semiosis logo is the Tibetan World Triad
 which represents the =Rule of Three=. e.g.
 Generate comment from function signature and
@@ -197,6 +199,7 @@ and program, generate program from input and
 output, generate input from program and
 output. It also represents the semiotic
 triadic relationship.
+#+latex: }
 
 *** Paracosm vs Metaverse
 **** Definitions
