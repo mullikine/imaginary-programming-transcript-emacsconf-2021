@@ -536,6 +536,20 @@ In short, the LM will imagine the evaluation
 of the function as opposed to generate code.
 #+latex: }
 
+**** =idefun= example
+#+latex: {\tiny
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (idefun generate-fib-sequence (n))
+  
+  (pp-to-string (generate-fib-sequence 5))
+#+END_SRC
+#+latex: }
+
+#+latex: {\tiny
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (1 1 2 3 5)
+#+END_SRC
+#+latex: }
 
 **** =imacro= generates code
 #+latex: {\tiny
