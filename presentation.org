@@ -130,6 +130,8 @@ Prompt and Predict".
 Private information is sent to the LM to train
 an AI to perform meta tasks and microtasks.
 
+The AI learns all human capabilities, and how to persuade.
+
 * Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
