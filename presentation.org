@@ -296,7 +296,7 @@ http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
 **** Applied structuralism: Imaginary programming functions
 #+latex: {\tiny
-Each =sNFT= is a _functor_ because it's meant to
+Each =sNFT= (semiotic NFT) is a _functor_ because it's meant to
 be called as a function, but has particular
 side-effects.
 
