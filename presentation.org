@@ -417,7 +417,6 @@ An =IP= library named =𝑖lambda.el= for emacs.
   vars:
   - "code"
   - "expression"
-  validator: "grep -qv '(:return'"
   examples:
   - |-
       (defun double-number (x)
