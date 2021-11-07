@@ -588,12 +588,17 @@ of the function as opposed to generate code.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
-**** An ifunction is defined by its name, arguments and or comments alone
+**** How to define an =ifunction=>
+An imaginary function is defined by its name,
+arguments and or comments alone.
+
+#+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (idefun hex-for-colour (colour))
   
   (hex-for-colour "watermelon")
 #+END_SRC
+#+latex: }
 
 #+RESULTS:
 #+begin_src emacs-lisp
