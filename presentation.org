@@ -451,8 +451,6 @@ will infer/generate underlying code.
 An =imacro= with only a function name will generate code.
 #+latex: }
 
-[[./macro-expand-codex.gif]]
-
 + =pf-imagine-an-emacs-function/3= :: http://github.com/semiosis/prompts/blob/master/prompts/imagine-an-emacs-function-3.prompt
 
 #+BEGIN_SRC yaml -n :async :results verbatim code
