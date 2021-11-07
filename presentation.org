@@ -178,6 +178,10 @@ Benefits:
 - [[https://mullikine.github.io/posts/alephalpha-for-alttext/][Use AI to empower people to understand rich media]]
   - How to create a textual description of Rich Media
 
+*** Imaginary Computing: Paracosm vs Metaverse
+**** more emacs
+- [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters]]
+
 *** Paracosm vs Metaverse
 **** Definitions
 - Paracosm
