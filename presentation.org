@@ -182,6 +182,7 @@ Benefits:
 **** more emacs
 - [[https://semiosis.github.io/ii/][Imaginary interpreters]]
 - [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters: Prolog example]]
+- [[https://semiosis.github.io/examplary/][example oriented lanugage]]
 
 *** Paracosm vs Metaverse
 **** Definitions
