@@ -92,7 +92,8 @@ order to keep websites textual.
 - [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha // Bodacious Blog]]
 
 * Imaginary Computing
-*** Intelligent NFTs (blockchain)
+*** Blockchain
+**** Intelligent NFTs
 An =NFT= is like a trading card, or piece of media, and as people.
 
 An =iNTF=, however, also contains a prompt and associated language model, which is intended to interpret the prompt.
@@ -105,7 +106,11 @@ Prompt and Predict".
 - [[https://mullikine.github.io/posts/creating-a-playground-for-gpt-3-in-emacs/][Creating a playground for GPT-3 in emacs // Bodacious Blog]]
 
 * Imaginary Computing
-**** A bleak future
+*** Potential Dystopia
+**** Information bubbles
+- [[https://www.youtube.com/watch?v=Ut7JlPeGNyM][Captain Bible in the Dome of Darkness gameplay {PC Game, 1994} - YouTube]]
+
+**** A 
 - They will take your imagination too
 - Microsoft
   - [[https://www.marktechpost.com/2021/11/06/microsoft-ai-introduces-turing-bletchley-a-2-5-billion-parameter-universal-image-language-representation-model-t-uilr/][MS models that reify your imagination]]
