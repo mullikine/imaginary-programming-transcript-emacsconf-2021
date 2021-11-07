@@ -317,6 +317,9 @@ a Language Model such as GPT-3.
 - Use GPT-3 as a search engine within emacs
 #+latex: }
 
+* Blockchain and a language model is all you need
+*** Blockchain and a Language model is all you need
+
 ** Using =pen.el=
 *** =pen.el=
 **** =pen.el= modes Part 1
