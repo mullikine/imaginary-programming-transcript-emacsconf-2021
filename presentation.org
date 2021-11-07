@@ -185,7 +185,17 @@ Benefits:
 - [[https://semiosis.github.io/examplary/][example-oriented lanugages]]
 - [[https://mullikine.github.io/posts/autofix-code-with-codex/][Autofixing code based on error messages]]
 - [[https://mullikine.github.io/posts/imaginary-equivalence-needs-blockchain/][Imaginary equivalence testing]]
-- [[https://mullikine.github.io/posts/generating-grammars-with-codex/][Create languages from descriptions]]
+- [[https://mullikine.github.io/posts/generating-grammars-with-codex/][Create BNF from descriptions and interpret BNF]]
+- [[https://mullikine.github.io/posts/codex-is-reversible-computing-exemplified/][Reversible computing (input or program from output)]]
+
+The semiosis logo is the Tibetan World Triad
+which represents the =Rule of Three=. e.g.
+Generate comment from function signature and
+body, generate function body from signature
+and comment, generate signature from comment
+and program, generate program from input and
+output, generate input from program and
+output.
 
 *** Paracosm vs Metaverse
 **** Definitions
