@@ -71,7 +71,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
   - Demonstrate =ilambda.el=
 
 * Imaginary Computing
-*** Imaginary Computing: AI Imagination
+*** Imaginary Computing: AI Imagination (EmacsConf 2021)
 **** Language Models is programming for AIs
 LMs are our best friends in the AI model
 menagerie because they make things
@@ -84,7 +84,7 @@ languages and how they relate to the world
 - https://aleph-alpha.de/techblog/95_the_end_of_the_era_imagenet
 
 * Imaginary Computing
-*** Imaginary Computing: Emacs as the shell
+*** Imaginary Computing: Emacs as the shell (EmacsConf 2021)
 **** Example: AI Art described by AI
 I use AlephAlpha’s multimodal LM to generate
 =Alt text= for the eww web browser. This is in
@@ -94,7 +94,7 @@ order to keep websites textual.
 - [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha]]
 
 * Imaginary Computing
-*** Imaginary Computing: Blockchain
+*** Imaginary Computing: Blockchain (EmacsConf 2021)
 **** Intelligent NFTs
 An =NFT= is like a trading card, or piece of media that is part of the blockchain web.
 
@@ -112,7 +112,7 @@ Prompt and Predict".
 - [[https://mullikine.github.io/posts/creating-a-playground-for-gpt-3-in-emacs/][Creating a playground for GPT-3 in emacs // Bodacious Blog]]
 
 * Imaginary Computing
-*** Imaginary Computing: Potential Dystopia
+*** Imaginary Computing: Potential Dystopia (EmacsConf 2021)
 **** Information bubbles
 - [[https://www.youtube.com/watch?v=Ut7JlPeGNyM][Captain Bible in the Dome of Darkness gameplay {PC Game, 1994} - YouTube]]
 
@@ -125,7 +125,7 @@ Prompt and Predict".
   - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of Zuck's imagination with Meta]]
 
 * Imaginary Computing
-*** Imaginary Computing: Potential Dystopia
+*** Imaginary Computing: Potential Dystopia (EmacsConf 2021)
 **** Learning meta-tasks and microtasks
 - [[https://www.axios.com/copilot-artificial-intelligence-coding-github-9a202f40-9af7-4786-9dcb-b678683b360f.html][AI programming tool Copilot helps write up to 30% of code on GitHub - Axios]]
 
@@ -145,7 +145,7 @@ individual truth, eroding centralised language power.
 [[./tower-of-babel.jpg]]
 
 * Imaginary Computing
-*** Imaginary Computing: Paracosm vs Metaverse
+*** Imaginary Computing: Paracosm vs Metaverse (EmacsConf 2021)
 **** Imaginary Web
 The GPT-3 imaginary web is:
 - an analog of the World-Wide-Web as imagined by GPT-3.
@@ -164,7 +164,7 @@ Benefits:
   - Change the sentiment of the author.
 - Peer into the future – read about things that haven't happened yet.
 
-*** Imaginary Computing: Paracosm vs Metaverse
+*** Imaginary Computing: Paracosm vs Metaverse (EmacsConf 2021)
 **** What is _rich media_ these days?
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
     was considered to be large files including
@@ -180,7 +180,7 @@ Benefits:
 - [[https://mullikine.github.io/posts/alephalpha-for-alttext/][Use AI to empower people to understand rich media]]
   - How to create a textual description of Rich Media
 
-*** Imaginary Computing: Paracosm vs Metaverse
+*** Imaginary Computing: Paracosm vs Metaverse (EmacsConf 2021)
 **** more emacs
 - [[https://semiosis.github.io/ii/][Imaginary interpreters]]
 - [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters: Prolog example]]
@@ -203,7 +203,7 @@ output. It also represents the semiotic
 triadic relationship.
 #+latex: }
 
-*** Paracosm vs Metaverse
+*** Paracosm vs Metaverse (EmacsConf 2021)
 **** Definitions
 - Paracosm
   - Privacy
@@ -224,7 +224,7 @@ triadic relationship.
     makes money off your dreams, people playing
     God each with other.
 
-*** Philosophy
+*** Philosophy (EmacsConf 2021)
 **** Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
@@ -245,7 +245,7 @@ reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
 
-*** Philosophy
+*** Philosophy (EmacsConf 2021)
 **** Truth (epistemology and alethiology)
   The Future of Humanity Institute (Oxford)
   seems to think this is an important topic.
@@ -257,7 +257,7 @@ past times.
   - Blockchain is a source of consensus, a type of truth
     - https://mullikine.github.io/posts/language-models-as-truth/
 
-*** Philosophy
+*** Philosophy (EmacsConf 2021)
 **** Structuralism: Language based on sign relations
   What do these things have in common:
   - Universal Grammar (UG) / Language Acquisition
@@ -267,7 +267,7 @@ past times.
 Foundational knowledge exists at compile-time
 (DNA, preprocessor, training).
 
-*** Philosophy
+*** Philosophy (EmacsConf 2021)
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
 **** Structuralism: Language based on sign relations
@@ -290,7 +290,7 @@ defined by their relationship to other
 elements within the system.
 
 * Freedom
-*** Freedom
+*** Freedom (EmacsConf 2021)
 **** Data privacy
 #+latex: {\tiny
 The models find useful data from more than just your current file.
@@ -314,7 +314,7 @@ The problems with LMs:
   - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
 
 * Imaginary Programming
-*** Imaginary Programming
+*** Imaginary Programming (EmacsConf 2021)
 **** Methodology
 Interactively use the language model to imagine.
 
@@ -358,7 +358,7 @@ blockchains.
 - https://semiosis.github.io/ilambda/
 
 * ilambda
-*** ilambda.el
+*** ilambda.el (EmacsConf 2021)
 **** Code
 An =IP= library named =𝑖lambda.el= for emacs.
 
@@ -371,7 +371,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
   macros for working with LMs.
 
 * ilambda
-*** ilambda.el
+*** ilambda.el (EmacsConf 2021)
 **** =ieval=
 =ieval= will simply evaluate the provided
 string/sexp as emacs lisp code. You
