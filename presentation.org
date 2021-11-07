@@ -162,7 +162,7 @@ Benefits:
 - Peer into the future – read about things that haven't happened yet.
 
 *** Imaginary Computing: Paracosm vs Metaverse
-**** emacs
+**** Rich media
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
     was considered to be large files including
     images and music. In the 2010s, this has become
@@ -170,6 +170,7 @@ Benefits:
     the 2020s, this will be access to _intelligent_
     and _truthful_ media.
 
+**** emacs
 - [[https://semiosis.github.io/looking-glass/][Looking-Glass: An imaginary-web browser for emacs]]
 - [[https://mullikine.github.io/posts/the-imaginary-web-with-codex/][Browsing the imaginary web]]
 - [[https://mullikine.github.io/posts/search-the-web-with-codex/][Search the web/imaginary web without Google]]
