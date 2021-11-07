@@ -275,7 +275,7 @@ Answer:
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
 **** Structuralism: Language descibed in terms of sign relations
-
+#+latex: {\tiny
 - Structural linguistics / structuralism is the theoretical position that finds
   meaning in the relation between things, rather than in things in isolation.
 
@@ -289,6 +289,7 @@ http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
   by their relationship to other elements within the system.
 
 - i.e. this is an abstraction of language for decomposing language models into its basic useful units, rather than say individual neurons as NFTs.
+#+latex: }
 
 * Freedom
 *** Imaginary Computing (IC) Freedom (EmacsConf 2021)
