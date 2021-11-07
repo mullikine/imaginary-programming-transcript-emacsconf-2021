@@ -294,6 +294,10 @@ http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 - i.e. this is an abstraction of language for decomposing language models into its basic useful units, rather than say individual neurons as NFTs.
 #+latex: }
 
+Each =sNFT= is a functor because it's meant to
+be called as a function, but has particular
+side-effects.
+
 * Freedom
 *** Imaginary Computing (IC) Freedom (EmacsConf 2021)
 **** Data privacy
