@@ -48,7 +48,8 @@ only been around for a couple of years now,
 but IP is not prompt engineering. We could,
 for instance, have humans behind the scenes
 doing the inference for us while employing
-=ieval=, =imacro= or =ilist=.
+=ieval=, =imacro= or =ilist=. And the goal is
+to use a =p2p= blockchain.
 #+latex: }
 
 **** Repositories for following along
