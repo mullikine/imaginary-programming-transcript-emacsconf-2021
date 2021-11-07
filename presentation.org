@@ -156,9 +156,9 @@ The imaginary web in the near future will be:
 - a network of paracosms and metaverses.
 
 Benefits:
-- Visit any website you can imagine, even the ones that are not real!
-- Edit and re-imagine as you go see alternative website realities – change the sentiment of the author!
-- Peer into the future – read about things that haven't happened yet!
+- Visit any website you can imagine, even the ones that are not real.
+- Edit and re-imagine as you go see alternative website realities – change the sentiment of the author.
+- Peer into the future – read about things that haven't happened yet.
 
 *** Imaginary Computing: Paracosm vs Metaverse
 **** emacs
