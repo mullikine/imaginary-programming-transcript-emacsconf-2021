@@ -444,11 +444,11 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 *** =imacro= generates code
 #+latex: {\tiny
-An =imacro= with only a function name will generate code.
-
 Expanding the =imacro= either runtime or 
 =M-x macrostep-expand=
 will infer/generate underlying code.
+
+An =imacro= with only a function name will generate code.
 #+latex: }
 
 [[./macro-expand-codex.gif]]
