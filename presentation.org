@@ -444,8 +444,6 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 *** =imacro= generates code
 #+latex: {\tiny
-An =imacro= generates code.
-
 Components of the =imacro= should be inferred.
 An =imacro= with only a function name should
 work.
