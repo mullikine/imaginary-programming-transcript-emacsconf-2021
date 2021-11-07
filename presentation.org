@@ -15,7 +15,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 #+TITLE:     EmacsConf 2021... {{{NEWLINE}}} /*Imaginary Programming with Emacs*/ {{{NEWLINE}}}
 #+AUTHOR:    Shane Mulligan {{{NEWLINE}}}
 #+EMAIL:     mullikine@gmail.com
-#+DATE:      <2021-03-01 Mon>
+#+DATE:      <2021-11-07 Mon>
 #+DESCRIPTION: University of Otago
 #+KEYWORDS:
 #+LANGUAGE:  en
