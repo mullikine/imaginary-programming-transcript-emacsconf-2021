@@ -150,14 +150,15 @@ The GPT-3 imaginary web is:
 
 The free as in freedom GPT models from
 EleutherAI GPT-3 may also be used to browse
-the imaginary web as imagined by that language model.
+the imaginary web as imagined by that LM.
 
 The imaginary web in the near future will be:
 - a network of paracosms and metaverses.
 
 Benefits:
 - Visit any website you can imagine, even ones that are not real.
-- Edit and re-imagine as you gosee alternative realities
+- Edit and re-imagine as you go
+  - see alternative realities
   - Change the sentiment of the author.
 - Peer into the future – read about things that haven't happened yet.
 
