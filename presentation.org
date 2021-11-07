@@ -193,9 +193,9 @@ past times.
   Knowledge exists at compile-time (DNA, preprocessor, training).
 
 *** Philosophy
-**** Structuralism: Language based on sign relations
-
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
+
+**** Structuralism: Language based on sign relations
 
 Structural linguistics / structuralism is the
 theoretical position that finds meaning in the
