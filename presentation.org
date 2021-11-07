@@ -132,6 +132,11 @@ an AI to perform meta tasks and microtasks.
 
 The AI learns all human capabilities including persuasion.
 
+**** Solution
+Decentralise microtasks.
+
+https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)
+
 * Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
