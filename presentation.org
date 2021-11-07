@@ -442,7 +442,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+end_src
 #+latex: }
 
-*** =imacro=
+*** =imacro= generates code
 #+latex: {\tiny
 An =imacro= generates code.
 
