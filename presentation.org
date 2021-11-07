@@ -148,7 +148,7 @@ individual truth, eroding centralised language power.
 The imaginary web is:
 - an analog of the World-Wide-Web imagined by a LM.
 
-In future will be:
+In near future will be:
 - a network of paracosms and metaverses.
 
 **** emacs
