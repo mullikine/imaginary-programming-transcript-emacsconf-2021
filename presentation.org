@@ -430,6 +430,22 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+END_SRC
 #+latex: }
 
+#+latex: {\tiny
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (ieval
+   (defun double-number (x)
+     (x * x))
+   "(double-number 5)")
+#+END_SRC
+#+latex: }
+
+#+latex: {\tiny
+#+RESULTS:
+#+begin_src emacs-lisp
+"10"
+#+end_src
+#+latex: }
+
 *** =imacro=
 #+latex: {\tiny
 An =imacro= generates code.
