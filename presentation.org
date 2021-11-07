@@ -54,7 +54,26 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 | [[http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021][talk transcript]]                                                     |
 #+latex: }
 
-**** Demo
+* Imaginary Programming with Emacs
+** emacsconf 2021
+LMs are our best friends in the AI model
+menagerie because they make things
+intelligible -- by understanding our textual
+languages.
+
+*** Objectives
+- Explain Imaginary Computing
+  - AI imagination
+  - Discussing AI-generated artwork with an AI
+  - Intelligent NFTs
+  - Imaginary Web
+    - Paracosm vs Metaverse
+- Explain Philosophy
+  - Simulacra and Science Fiction
+  - Truth (epistemology and alethiology)
+  - Structuralism: Language based on sign relations
+- Demo Imaginary Programming
+  - Demonstrate =ilambda.el=
 
 * Preliminaries
 ** GPT-3

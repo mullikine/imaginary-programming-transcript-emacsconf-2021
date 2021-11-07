@@ -5,17 +5,17 @@ intelligible -- by understanding our textual
 languages.
 
 Objectives:
-- Imaginary Computing
+- Explain Imaginary Computing
   - AI imagination
   - Discussing AI-generated artwork with an AI
   - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
-- Philosophy
+- Explain Philosophy
   - Simulacra and Science Fiction
   - Truth (epistemology and alethiology)
   - Structuralism: Language based on sign relations
-- Imaginary Programming
+- Demo Imaginary Programming
   - Demonstrate =ilambda.el=
 
 * Resources
