@@ -197,26 +197,22 @@ past times.
 
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
-    structural linguistics
-    structuralism
-        [#linguistics]
-  
-        The theoretical position that finds
-        meaning in the relation between things,
-        rather than in things in isolation.
-  
-        In other words, it gives primacy to
-        pattern over substance.
-  
-        Such meanings may be either part of a
-        universal pattern or culturally
-        determined.
-  
-        Denotes schools or theories in which
-        language is conceived as a self-contained,
-        self-regulating semiotic system whose
-        elements are defined by their relationship
-        to other elements within the system.
+Structural linguistics / structuralism is the
+theoretical position that finds meaning in the
+relation between things, rather than in things
+in isolation.
+
+In other words, it gives primacy to pattern
+over substance.
+
+Such meanings may be either part of a
+universal pattern or culturally determined.
+
+Denotes schools or theories in which language
+is conceived as a self-contained, self-
+regulating semiotic system whose elements are
+defined by their relationship to other
+elements within the system.
 
 * Preliminaries
 ** GPT-3
