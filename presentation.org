@@ -296,7 +296,9 @@ The models find useful data from more than just your current file.
 - https://mullikine.github.io/posts/imagine-a-project-with-codex/
 
 **** Freedom and GPL-3
-Problem with language models is they are so large and hidden behind SAAS.
+The problem, with LMs: they are so large and
+hidden behind SAAS, they can see anything
+public (they are license-blinded).
 
 **** Solution: Freedom and blockchain
 - Language models are ballooning in size like cancer
