@@ -563,6 +563,27 @@ of the function as opposed to generate code.
    (sha-hash-string "sugar shane"))
 #+END_SRC
 
+**** =idefun= uses =ilambda= under the hood
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (defmacro idefun (name-sym args &optional code-or-task task-or-code)
+    "Define an imaginary function"
+    (cond
+     ((and (stringp name-sym)
+           (not code-or-task))
+      (progn
+        (setq code-or-task name-sym)
+        (setq name-sym (intern (s-replace-regexp "-$" "" (slugify (str name-sym)))))))
+     ((and (symbolp name-sym)
+           (not code-or-task))
+      (setq code-or-task (pen-snc "unsnakecase" (sym2str name-sym)))))
+    `(defalias ',name-sym
+       (function ,(eval
+                   `(ilambda ,args ,code-or-task ,task-or-code ,name-sym)))))
+  
+  (idefun idoubleit (x)
+          "double it")
+#+END_SRC
+
 **** =imacro= generates code
 #+latex: {\tiny
 Expanding the =imacro= either runtime or 
