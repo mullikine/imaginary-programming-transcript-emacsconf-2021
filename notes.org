@@ -44,6 +44,10 @@ An =iNTF=, however, also contains a prompt and associated language model, which 
 
 - https://alethea.ai/
 
+** A bleak future
+*** Microsoft
+- https://www.marktechpost.com/2021/11/06/microsoft-ai-introduces-turing-bletchley-a-2-5-billion-parameter-universal-image-language-representation-model-t-uilr/
+
 ** Imaginary Web
  #+BEGIN_SRC text -n :async :results verbatim code
    imaginary internet
@@ -86,7 +90,12 @@ past times.
 The Future of Humanity Institute (Oxford)
 seems to think this is an important topic.
 
-- https://arxiv.org/abs/2110.06674
+- [[https://arxiv.org/abs/2110.06674][ 2110.06674  Truthful AI]]
+- Datasets are a source of constructivist truth
+- Language models are snaphots of society, and a source of several types of truth
+  - [[https://www.youtube.com/watch?v=kP-dXK9JEhY][Symbolic Knowledge Distillation]]
+- Blockchain is a source of consensus, a type of truth
+  - https://mullikine.github.io/posts/language-models-as-truth/
 
 ** Structuralism: Language based on sign relations
 #+BEGIN_SRC text -n :async :results verbatim code
