@@ -145,7 +145,7 @@ individual truth, eroding centralised language power.
 * Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
-The GP3- imaginary web is:
+The GPT-3 imaginary web is:
 - an analog of the World-Wide-Web imagined by a LM.
 
 The imaginary web in the near future will be:
