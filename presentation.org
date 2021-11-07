@@ -17,7 +17,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 #+AUTHOR:    Shane Mulligan {{{NEWLINE}}}
 #+EMAIL:     mullikine@gmail.com
 #+DATE:      <2021-03-01 Mon>
-#+DESCRIPTION:
+#+DESCRIPTION: University of Otago
 #+KEYWORDS:
 #+LANGUAGE:  en
 # #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
