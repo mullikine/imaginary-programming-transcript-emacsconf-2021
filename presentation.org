@@ -284,11 +284,13 @@ Imaginary programming is an extension of literate programming.
 As you can see, anything inside the =ieval/m=
 macro does not have to be valid emacs lisp.
 
+#+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
-  (ieval/m (curl -s "https://api.github.com/user/semiosis/repos?per_page=10&page=1"))
+  (ieval/m
+   (curl -s
+    "https://api.github.com/user/semiosis/repos?per_page=10&page=1"))
 #+END_SRC
 
-#+latex: {\tiny
 #+RESULTS:
 #+begin_src emacs-lisp
   "\"[((name . \\\"guix\\\") (description . \\\"The GNU package manager\\\") (updated_at . \\\"2014-04-21T18:49:59Z\\\") (created_at .
