@@ -86,15 +86,20 @@ alttext for the eww web browser. This is in
 order to keep websites textual.
 
 - https://mullikine.github.io/posts/alephalpha-for-alttext/
-- https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/
+- [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha // Bodacious Blog]]
 
 * Imaginary Computing
 ** Intelligent NFTs (blockchain)
 An =NFT= is like a trading card, or piece of media, and as people.
 
 An =iNTF=, however, also contains a prompt and associated language model, which is intended to interpret the prompt.
-
 - https://alethea.ai/
+
+To understand what a prompt is, please see my
+previous presentation, or read "Pretrain,
+Prompt and Predict".
+
+- [[https://mullikine.github.io/posts/creating-a-playground-for-gpt-3-in-emacs/][Creating a playground for GPT-3 in emacs // Bodacious Blog]]
 
 * Preliminaries
 ** GPT-3
