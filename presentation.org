@@ -195,7 +195,8 @@ body, generate function body from signature
 and comment, generate signature from comment
 and program, generate program from input and
 output, generate input from program and
-output.
+output. It also represents the semiotic
+triadic relationship.
 
 *** Paracosm vs Metaverse
 **** Definitions
