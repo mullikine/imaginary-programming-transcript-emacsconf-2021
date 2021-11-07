@@ -551,6 +551,17 @@ of the function as opposed to generate code.
 #+END_SRC
 #+latex: }
 
+* ilambda
+*** ilambda.el (EmacsConf 2021)
+**** Override language model parameters with =pen-force=
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim raw
+  (idefun sha-hash-string (s))
+  
+  (pen-force
+   ((temperature 0.0))
+   (sha-hash-string "sugar shane"))
+#+END_SRC
+
 **** =imacro= generates code
 #+latex: {\tiny
 Expanding the =imacro= either runtime or 
