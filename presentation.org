@@ -442,6 +442,10 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+end_src
 #+latex: }
 
+* ilambda
+*** ilambda.el (EmacsConf 2021)
+**** =ilambda=
+
 *** =imacro= generates code
 #+latex: {\tiny
 Expanding the =imacro= either runtime or 
