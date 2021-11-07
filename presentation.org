@@ -69,12 +69,32 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 - Demo Imaginary Programming
   - Demonstrate =ilambda.el=
 
-* Basis
-** 
- LMs are our best friends in the AI model
- menagerie because they make things
- intelligible -- by understanding our textual
- languages.
+* Imaginary Computing
+** Language Models is programming for AIs
+LMs are our best friends in the AI model
+menagerie because they make things
+intelligible -- by understanding our textual
+languages.
+
+** AI Imagination
+- [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI]]
+
+* Imaginary Computing
+** Example: AI Art described by AI
+I use AlephAlpha’s multimodal LM to generate
+alttext for the eww web browser. This is in
+order to keep websites textual.
+
+- https://mullikine.github.io/posts/alephalpha-for-alttext/
+- https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/
+
+* Imaginary Computing
+** Intelligent NFTs (blockchain)
+An =NFT= is like a trading card, or piece of media, and as people.
+
+An =iNTF=, however, also contains a prompt and associated language model, which is intended to interpret the prompt.
+
+- https://alethea.ai/
 
 * Preliminaries
 ** GPT-3
