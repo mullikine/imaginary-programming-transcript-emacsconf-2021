@@ -148,13 +148,8 @@ individual truth, eroding centralised language power.
 The imaginary web is a network of paracosms
 and metaverses.
 
- #+BEGIN_SRC text -n :async :results verbatim code
-   imaginary internet
-   imaginary web
-       An imaginary world-wide-web is an
-       analog of the World-Wide-Web imagined by a
-       language model.
- #+END_SRC
+The imaginary world-wide-web is an analog of
+the World-Wide-Web imagined by a LM.
 
 **** emacs
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
