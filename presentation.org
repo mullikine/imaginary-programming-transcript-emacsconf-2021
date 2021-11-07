@@ -282,10 +282,13 @@ Imaginary programming is an extension of literate programming.
 
 **** Practical application: mocking APIs
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
-  (ieval
-   
-   )
+  (upd (ieval (curl "http://api.kfc.com/recipes/list&json=true")))
 #+END_SRC
+
+#+RESULTS:
+#+begin_src emacs-lisp
+"\"finished HTTP response\""
+#+end_src
 
 * Explanations
 ** Using =pen.el=
