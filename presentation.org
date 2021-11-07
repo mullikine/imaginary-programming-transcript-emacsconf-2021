@@ -398,6 +398,10 @@ An =IP= library named =𝑖lambda.el= for emacs.
   in that you will find a set of basic functions and
   macros for working with LMs.
 
+- ilambda is not only way that LMs can be applied to
+  programming but I think this is an elegant way
+  to do it.
+
 * ilambda
 *** ilambda.el (EmacsConf 2021)
 **** =ieval=
