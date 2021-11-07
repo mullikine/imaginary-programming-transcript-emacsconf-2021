@@ -177,7 +177,7 @@ Benefits:
 - [[https://mullikine.github.io/posts/the-imaginary-web-with-codex/][Browsing the imaginary web]]
 - [[https://mullikine.github.io/posts/search-the-web-with-codex/][Search the web/imaginary web without Google]]
 - [[https://mullikine.github.io/posts/alephalpha-for-alttext/][Use AI to empower people to understand rich media]]
-  - How to create a textual description of Rich Media
+  - ^ this is how to create a textual description of Rich Media.
 
 *** Imaginary Computing: Paracosm vs Metaverse (EmacsConf 2021)
 **** more emacs examples
