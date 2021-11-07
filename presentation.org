@@ -160,6 +160,9 @@ and metaverses.
 An imaginary-web browser for emacs.
 
 - https://semiosis.github.io/looking-glass/
+- [[https://mullikine.github.io/posts/the-imaginary-web-with-codex/][Browsing the imaginary web]]
+- [[https://mullikine.github.io/posts/search-the-web-with-codex/][Search the web/imaginary web without Google]]
+- [[https://mullikine.github.io/posts/alephalpha-for-alttext/][Use AI to empower people to understand AI media]]
 
 *** Paracosm vs Metaverse
 **** Definitions
