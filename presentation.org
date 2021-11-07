@@ -408,7 +408,8 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (defmacro ieval (expression &optional code)
-    "Imaginarily evaluate the expression, given the code and return a real result."
+    "Imaginarily evaluate the expression, given
+    the code and return a real result."
     (let* ((code-str
             (cond
              ((stringp code) code)
