@@ -263,7 +263,7 @@ past times.
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 **** Structuralism: Language based on sign relations
-  What do these things have in common:
+  What do these things have in common?
   - Universal Grammar (UG) / Language Acquisition
   - C++ template metaprogramming
   - GPT-3 / Foundation models
