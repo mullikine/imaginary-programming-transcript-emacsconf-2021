@@ -148,6 +148,10 @@ individual truth, eroding centralised language power.
 The GPT-3 imaginary web is:
 - an analog of the World-Wide-Web as imagined by GPT-3.
 
+The free as in freedom GPT models from
+EleutherAI GPT-3 may also be used to browse
+the imaginary web:
+
 The imaginary web in the near future will be:
 - a network of paracosms and metaverses.
 
