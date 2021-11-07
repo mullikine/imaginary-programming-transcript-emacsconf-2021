@@ -40,7 +40,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 #+ATTR_LATEX: :center nil
 
 * Presentation
-*** Following along
+*** Imaginary Programming in Emacs
 **** Repositories for following along
 #+latex: {\tiny
 | http://github1s.com/semiosis/pen.el                                 |
