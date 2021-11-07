@@ -288,8 +288,7 @@ http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
   self-contained, self- regulating semiotic system whose elements are defined
   by their relationship to other elements within the system.
 
-- i.e. this is an abstraction of language for decomposing language models into its basic useful units.
-
+- i.e. this is an abstraction of language for decomposing language models into its basic useful units, rather than say individual neurons as NFTs.
 * Freedom
 *** Imaginary Computing (IC) Freedom (EmacsConf 2021)
 **** Data privacy
