@@ -278,6 +278,8 @@ Imaginary programming is an extension of literate programming.
 - Literate programming with =org-mode=
 
 **** Practical application: mocking APIs
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+#+END_SRC
 
 * Explanations
 ** Using =pen.el=
