@@ -54,8 +54,8 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 | [[http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021][talk transcript]]                                                     |
 #+latex: }
 
-* Imaginary Programming with Emacs
-*** Imaginary Programming (EmacsConf 2021)
+* Imaginary Programming (IP) with Emacs
+*** Imaginary Programming (IP) (EmacsConf 2021)
 **** Objectives
 - Explain =Imaginary Computing=
   - AI imagination
@@ -63,7 +63,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
   - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
-- Explain =Philosophy=
+- Explain the =Philosophy= of IP
   - Simulacra and Science Fiction
   - Truth (epistemology and alethiology)
   - Structuralism: Language based on sign relations
