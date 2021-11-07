@@ -401,6 +401,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 * ilambda
 *** ilambda.el (EmacsConf 2021)
 **** =ieval=
+#+latex: {\tiny
 =ieval= will simply evaluate the provided
 string/sexp as emacs lisp code. You
 must provide =ieval= with, firstly, the preceding
@@ -410,6 +411,38 @@ secondly, evaluated expression. Either
 argument can either be a raw string containing
 code or a sexp, but the expression will be
 "one-line-ized" for the prompt.
+#+latex: }
+
+#+latex: {\tiny
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  task: "imagine evaluating emacs lisp"
+  doc: "Given some elisp return the imagined result"
+  prompt-version: 1
+  prompt: |+
+    <code>
+    (message (eval <expression>))
+    --> 
+  engine: "OpenAI Codex"
+  temperature: 0.2
+  max-generated-tokens: 60
+  top-p: 1.0
+  cache: on
+  stop-sequences:
+  - "\n"
+  vars:
+  - "code"
+  - "expression"
+  validator: "grep -qv '(:return'"
+  examples:
+  - |-
+      (defun double-number (x)
+        (x * x))
+  - "(double-number 5)"
+  filter: on
+  completion: off
+  insertion: off
+#+END_SRC
+#+latex: }
 
 *** =imacro=
 An =imacro= actually imagines the
