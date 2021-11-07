@@ -112,7 +112,7 @@ What do these things have in common:
 - C++ template metaprogramming
 - GPT-3
 
-Knowledge is constructed at compile-time (DNA, preprocessor, training).
+Knowledge exists at compile-time (DNA, preprocessor, training).
 
 #+BEGIN_SRC text -n :async :results verbatim code
   structural linguistics
