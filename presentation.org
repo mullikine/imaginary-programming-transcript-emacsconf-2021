@@ -96,6 +96,10 @@ order to keep websites textual.
 **** Intelligent NFTs
 An =NFT= is like a trading card, or piece of media that is part of the blockchain web.
 
+For example, =Mickey Mouse= now exists as an
+=iNFT=. We have consensus over Mickey's image
+and personality.
+
 An =iNTF=, however, also contains a prompt and associated language model, which is intended to interpret the prompt.
 - https://alethea.ai/
 
