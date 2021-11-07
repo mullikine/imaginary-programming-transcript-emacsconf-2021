@@ -228,7 +228,7 @@ triadic relationship.
     makes money off your dreams, people playing
     God each with other.
 
-*** Philosophy (EmacsConf 2021)
+*** Imaginary Programming (IP)Philosophy (EmacsConf 2021)
 **** Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
@@ -249,7 +249,7 @@ reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
 
-*** Philosophy (EmacsConf 2021)
+*** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 **** Truth (epistemology and alethiology)
   The Future of Humanity Institute (Oxford)
   seems to think this is an important topic.
@@ -261,7 +261,7 @@ past times.
   - Blockchain is a source of consensus, a type of truth
     - https://mullikine.github.io/posts/language-models-as-truth/
 
-*** Philosophy (EmacsConf 2021)
+*** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 **** Structuralism: Language based on sign relations
   What do these things have in common:
   - Universal Grammar (UG) / Language Acquisition
@@ -271,7 +271,7 @@ past times.
 Foundational knowledge exists at compile-time
 (DNA, preprocessor, training).
 
-*** Philosophy (EmacsConf 2021)
+*** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
 **** Structuralism: Language based on sign relations
@@ -294,7 +294,7 @@ defined by their relationship to other
 elements within the system.
 
 * Freedom
-*** Freedom (EmacsConf 2021)
+*** Imaginary Computing (IC) Freedom (EmacsConf 2021)
 **** Data privacy
 #+latex: {\tiny
 The models find useful data from more than just your current file.
