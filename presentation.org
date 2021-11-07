@@ -565,7 +565,7 @@ of the function as opposed to generate code.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
-**** =idefun= uses =ilambda= under the hood
+**** =idefun= uses =ilambda= under the hood, which uses =ieval=
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (defmacro idefun (name-sym args &optional code-or-task task-or-code)
