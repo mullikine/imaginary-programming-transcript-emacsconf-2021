@@ -6,7 +6,6 @@ https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 Relation symbols
 http://garsia.math.yorku.ca/MPWP/LATEXmath/node8.html
 
-
 https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/327847
 \newcommand{\R}{\mathbb{R}}
 
