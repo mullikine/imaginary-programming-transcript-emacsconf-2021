@@ -268,15 +268,18 @@ Problem with language models is they are so large and hidden behind SAAS.
   - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
 
 * Imaginary Programming
-*** Methodology
+*** Imaginary Programming
+**** Methodology
 Interactively use the language model to imagine.
 
-*** Paradigm
-**** Literate programming with =org-mode=
-An extension of literate programming.
+**** Paradigm
+Imaginary programming is an extension of literate programming.
 
-*** Practical application: mocking APIs
-**** ilambda
+- Literate programming with =org-mode=
+
+
+**** Practical application: mocking APIs
+***** ilambda
 
 * Explanations
 ** Using =pen.el=
