@@ -563,6 +563,8 @@ of the function as opposed to generate code.
    (sha-hash-string "sugar shane"))
 #+END_SRC
 
+* ilambda
+*** ilambda.el (EmacsConf 2021)
 **** =idefun= uses =ilambda= under the hood
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (defmacro idefun (name-sym args &optional code-or-task task-or-code)
