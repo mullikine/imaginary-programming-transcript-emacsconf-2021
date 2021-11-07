@@ -305,7 +305,7 @@ The models find useful data from more than just your current file.
 #+latex: {\tiny
 The problems with LMs:
 - they are too large currently for running privately and hidden behind SAAS,
-- they can see anything public (they are license-blinded. A GNU Public License v4 isn't enough...),
+- they can see anything public (they are license-blinded. A GNU Public License v4 is not enough...),
 - They can imagine software without needing original source
 #+latex: }
 
