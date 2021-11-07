@@ -402,15 +402,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 *** ilambda.el (EmacsConf 2021)
 **** =ieval=
 #+latex: {\tiny
-=ieval= will simply evaluate the provided
-string/sexp as emacs lisp code. You
-must provide =ieval= with, firstly, the preceding
-code, which may be, for example, a function
-definition or package requires, etc. and,
-secondly, evaluated expression. Either
-argument can either be a raw string containing
-code or a sexp, but the expression will be
-"one-line-ized" for the prompt.
+=ieval= will imagine the result of evaluating its body.
 #+latex: }
 
 #+latex: {\tiny
