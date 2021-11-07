@@ -362,7 +362,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
   macros for working with LMs.
 
 * ilambda
-*** 𝑖λ (ilambda.el)
+*** ilambda.el
 **** =ieval=
 =ieval= will simply evaluate the provided
 string/sexp as emacs lisp code. You
