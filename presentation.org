@@ -57,21 +57,21 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 * Imaginary Programming with Emacs
 *** Imaginary Programming (EmacsConf 2021)
 **** Objectives
-- Explain Imaginary Computing
+- Explain =Imaginary Computing=
   - AI imagination
   - Discussing AI-generated artwork with an AI
   - Intelligent NFTs
   - Imaginary Web
     - Paracosm vs Metaverse
-- Explain Philosophy
+- Explain =Philosophy=
   - Simulacra and Science Fiction
   - Truth (epistemology and alethiology)
   - Structuralism: Language based on sign relations
-- Demo Imaginary Programming
+- =Demo= Imaginary Programming
   - Demonstrate =ilambda.el=
 
 * Imaginary Computing
-*** AI Imagination
+*** Imaginary Computing: AI Imagination
 **** Language Models is programming for AIs
 LMs are our best friends in the AI model
 menagerie because they make things
@@ -82,7 +82,7 @@ languages.
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI]]
 
 * Imaginary Computing
-*** Emacs as the command-center for prompting
+*** Imaginary Computing: Emacs as the shell
 **** Example: AI Art described by AI
 I use AlephAlpha’s multimodal LM to generate
 alttext for the eww web browser. This is in
@@ -92,7 +92,7 @@ order to keep websites textual.
 - [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha // Bodacious Blog]]
 
 * Imaginary Computing
-*** Blockchain
+*** Imaginary Computing: Blockchain
 **** Intelligent NFTs
 An =NFT= is like a trading card, or piece of media that is part of the blockchain web.
 
@@ -110,7 +110,7 @@ Prompt and Predict".
 - [[https://mullikine.github.io/posts/creating-a-playground-for-gpt-3-in-emacs/][Creating a playground for GPT-3 in emacs // Bodacious Blog]]
 
 * Imaginary Computing
-*** Potential Dystopia
+*** Imaginary Computing: Potential Dystopia
 **** Information bubbles
 - [[https://www.youtube.com/watch?v=Ut7JlPeGNyM][Captain Bible in the Dome of Darkness gameplay {PC Game, 1994} - YouTube]]
 
@@ -123,7 +123,7 @@ Prompt and Predict".
   - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of Zuck's imagination with Meta]]
 
 * Imaginary Computing
-*** Paracosm vs Metaverse
+*** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
 The imaginary web is a network of paracosms
 and metaverses.
@@ -150,7 +150,7 @@ An imaginary-web browser for emacs.
 - Metaverse
   - Getting cozy with Mark Zuckerberg's imaginarium, an intellectual prison
 
-* Philosophy
+*** Philosophy
 **** Simulacra and Science Fiction
 Jean Baudrillard speaks about the gap
 between the real and the imaginary.
