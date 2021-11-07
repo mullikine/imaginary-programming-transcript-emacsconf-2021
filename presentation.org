@@ -123,6 +123,11 @@ Prompt and Predict".
   - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of Zuck's imagination with Meta]]
 
 * Imaginary Computing
+*** Imaginary Computing: Potential Dystopia
+**** Automation of meta-tasks and microtasks
+- [[https://www.axios.com/copilot-artificial-intelligence-coding-github-9a202f40-9af7-4786-9dcb-b678683b360f.html][AI programming tool Copilot helps write up to 30% of code on GitHub - Axios]]
+
+* Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
 The imaginary web is a network of paracosms
