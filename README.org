@@ -2,13 +2,16 @@
 + Talk URL :: https://emacsconf.org/2021/talks/imaginary/
 
 * Transcript
-Dear fellow free software enthusiasts, it's a real honor to present for EmacsConf on the topic of Imaginary Programming.
+Dear fellow free software enthusiasts, it's a
+real honor to present for EmacsConf on the
+topic of Imaginary Programming.
 
 My goal is to introduce people to a new style of
 programming that I believe will be mainstream
 within the year, even if it goes by other names. 
 
-Or perhaps we'll be inundated with SAAS tools that present this stuff as magic instead.
+Or perhaps we'll be inundated with SAAS tools
+that present this stuff as magic instead.
 
 My way is certainly not the only way that LMs can be applied to
 programming but I think this is an elegant way
