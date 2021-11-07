@@ -312,7 +312,7 @@ The problems with LMs:
 **** Solution: Freedom and blockchain
 - Language models are ballooning in size like cancer
 - Break up the language model into semiotic triadic relation
-  - semiotic NFTs
+  - semiotic NFTs (=sNFT=)
   - Propose a decentralised triadic relations network.
   - https://semiosis.github.io/protocol/
   - http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt
