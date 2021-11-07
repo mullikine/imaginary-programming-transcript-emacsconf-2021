@@ -172,7 +172,7 @@ Benefits:
     the 2020s, this will be access to _intelligent_
     and _truthful_ media.
 
-**** emacs
+**** emacs examples
 - [[https://semiosis.github.io/looking-glass/][Looking-Glass: An imaginary-web browser for emacs]]
 - [[https://mullikine.github.io/posts/the-imaginary-web-with-codex/][Browsing the imaginary web]]
 - [[https://mullikine.github.io/posts/search-the-web-with-codex/][Search the web/imaginary web without Google]]
@@ -180,14 +180,18 @@ Benefits:
   - How to create a textual description of Rich Media
 
 *** Imaginary Computing: Paracosm vs Metaverse (EmacsConf 2021)
-**** more emacs
+**** more emacs examples
+#+latex: {\tiny
 - [[https://semiosis.github.io/ii/][Imaginary interpreters]]
 - [[https://mullikine.github.io/posts/imaginary-prolog-interpreter-with-codex/][Imaginary interpreters: Prolog example]]
 - [[https://semiosis.github.io/examplary/][example-oriented lanugages]]
 - [[https://mullikine.github.io/posts/autofix-code-with-codex/][Autofixing code based on error messages]]
-- [[https://mullikine.github.io/posts/imaginary-equivalence-needs-blockchain/][Imaginary equivalence testing]]
+- [[https://mullikine.github.io/posts/imaginary-equivalence-needs-blockchain/][Imaginary equivalence testing - Beyond neural hashes]]
 - [[https://mullikine.github.io/posts/generating-grammars-with-codex/][Create BNF from descriptions and interpret BNF]]
 - [[https://mullikine.github.io/posts/codex-is-reversible-computing-exemplified/][Reversible computing (input or program from output)]]
+- [[https://mullikine.github.io/posts/imaginary-chimera-languages-with-codex/][Imaginary chimeric languages with Codex]]
+- [[https://semiosis.github.io/posts/the-codex-quine/][A new type of Quine]]
+#+latex: }
 
 **** ࿋
 #+latex: {\tiny
