@@ -146,8 +146,10 @@ individual truth, eroding centralised language power.
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
 The imaginary web is:
-- a network of paracosms and metaverses.
 - an analog of the World-Wide-Web imagined by a LM.
+
+In future will be:
+- a network of paracosms and metaverses.
 
 **** emacs
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
