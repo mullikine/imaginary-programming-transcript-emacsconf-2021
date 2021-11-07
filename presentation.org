@@ -501,6 +501,9 @@ Under the hood, =ilambda= uses =ieval=.
 #+END_SRC
 #+latex: }
 
+* ilambda
+*** ilambda.el (EmacsConf 2021)
+**** =ilambda= =example=
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (-reduce (𝑖λ (x y) "add x to y") (number-sequence 1 3))
