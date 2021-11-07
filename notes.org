@@ -98,6 +98,13 @@ seems to think this is an important topic.
   - https://mullikine.github.io/posts/language-models-as-truth/
 
 ** Structuralism: Language based on sign relations
+What do these things have in common:
+- Universal Grammar (UG) / Language Acquisition
+- C++ template metaprogramming
+- GPT-3
+
+Knowledge happens at compile-time (DNA, preprocessor, training).
+
 #+BEGIN_SRC text -n :async :results verbatim code
   structural linguistics
   structuralism
