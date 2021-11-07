@@ -330,7 +330,8 @@ blockchains.
 An =IP= library named =𝑖λ.el= for emacs.
 
 + source :: http://github.com/semiosis/pen.el/blob/master/src/ilambda.el
++ other languages (WIP) :: http://github.com/semiosis/ilambda
 
-- a bit like a functional programming library
++ a bit like a functional programming library
   in that you will find a set of functions and
   macros for working with LMs.
