@@ -111,7 +111,7 @@ Prompt and Predict".
 - [[https://www.youtube.com/watch?v=Ut7JlPeGNyM][Captain Bible in the Dome of Darkness gameplay {PC Game, 1994} - YouTube]]
 
 **** Capitalism for your imagination
-- They will take your imagination too
+- They will take your imagination, too
 - Microsoft
   - [[https://www.marktechpost.com/2021/11/06/microsoft-ai-introduces-turing-bletchley-a-2-5-billion-parameter-universal-image-language-representation-model-t-uilr/][MS models that reify your imagination]]
   - The evil twin of =AlephAlpha=.
