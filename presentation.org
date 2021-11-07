@@ -236,7 +236,7 @@ past times.
   What do these things have in common:
   - Universal Grammar (UG) / Language Acquisition
   - C++ template metaprogramming
-  - GPT-3
+  - GPT-3 / Foundation models
 
 Foundational knowledge exists at compile-time
 (DNA, preprocessor, training).
