@@ -262,7 +262,7 @@ seems to think this is an important topic.
   - https://mullikine.github.io/posts/language-models-as-truth/
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
-**** Structuralism: Language based on sign relations
+**** Structuralism: Language descibed in terms of sign relations
 What do these things have in common?
 - Universal Grammar (UG) / Language Acquisition
 - C++ template metaprogramming
@@ -274,24 +274,19 @@ Answer:
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 
-**** Structuralism: Language based on sign relations
+**** Structuralism: Language descibed in terms of sign relations
 
-Structural linguistics / structuralism is the
-theoretical position that finds meaning in the
-relation between things, rather than in things
-in isolation.
+- Structural linguistics / structuralism is the theoretical position that finds
+  meaning in the relation between things, rather than in things in isolation.
 
-In other words, it gives primacy to pattern
-over substance.
+- In other words, it gives primacy to pattern over substance.
 
-Such meanings may be either part of a
-universal pattern or culturally determined.
+- Such meanings may be either part of a universal pattern or culturally
+  determined.
 
-Denotes schools or theories in which language
-is conceived as a self-contained, self-
-regulating semiotic system whose elements are
-defined by their relationship to other
-elements within the system.
+- Denotes schools or theories in which language is conceived as a
+  self-contained, self- regulating semiotic system whose elements are defined
+  by their relationship to other elements within the system.
 
 * Freedom
 *** Imaginary Computing (IC) Freedom (EmacsConf 2021)
