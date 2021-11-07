@@ -517,8 +517,6 @@ Under the hood, =ilambda= uses =ieval=.
 #+end_src
 #+latex: }
 
-* ilambda
-*** ilambda.el (EmacsConf 2021)
 **** =idefun= (define imaginary function)
 
 #+latex: {\tiny
