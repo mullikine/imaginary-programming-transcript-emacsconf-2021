@@ -132,11 +132,13 @@ and metaverses.
        language model.
  #+END_SRC
 
+**** emacs
 An imaginary-web browser for emacs.
 
 - https://semiosis.github.io/looking-glass/
 
 *** Paracosm vs Metaverse
+**** Definitions
 - Paracosm
   - Privacy
   - Personal truth
