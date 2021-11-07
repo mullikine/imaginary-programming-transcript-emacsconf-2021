@@ -171,6 +171,17 @@ reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
 
+**** Truth (epistemology and alethiology)
+  The Future of Humanity Institute (Oxford)
+  seems to think this is an important topic.
+
+  - [[https://arxiv.org/abs/2110.06674][ 2110.06674  Truthful AI]]
+  - Datasets are a source of constructivist truth
+  - Language models are snaphots of society, and a source of several types of truth
+    - [[https://www.youtube.com/watch?v=kP-dXK9JEhY][Symbolic Knowledge Distillation]]
+  - Blockchain is a source of consensus, a type of truth
+    - https://mullikine.github.io/posts/language-models-as-truth/
+
 * Preliminaries
 ** GPT-3
 *** Text Generator
