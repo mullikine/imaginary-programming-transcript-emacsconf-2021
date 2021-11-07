@@ -158,7 +158,7 @@ The imaginary web in the near future will be:
 Benefits:
 - Visit any website you can imagine, even the ones that are not real!
 - Edit and re-imagine as you go see alternative website realities – change the sentiment of the author!
-- Peer into the future – read about GPT-5!
+- Peer into the future – read about things that haven't happened yet!
 
 **** emacs
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
