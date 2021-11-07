@@ -238,7 +238,8 @@ past times.
   - C++ template metaprogramming
   - GPT-3
 
-  Knowledge exists at compile-time (DNA, preprocessor, training).
+Foundational knowledge exists at compile-time
+(DNA, preprocessor, training).
 
 *** Philosophy
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
