@@ -56,6 +56,7 @@ An =iNTF=, however, also contains a prompt and associated language model, which 
 *** Paracosm vs Metaverse
 - Paracosm
   - Privacy
+  - Personal truth
   - Freedom of imagination
 - Metaverse
   - Getting cozy with Mark Zuckerberg's imaginarium, an intellectual prison
