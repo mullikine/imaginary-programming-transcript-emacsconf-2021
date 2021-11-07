@@ -192,6 +192,9 @@ past times.
 
   Knowledge exists at compile-time (DNA, preprocessor, training).
 
+*** Philosophy
+**** Structuralism: Language based on sign relations
+
   #+BEGIN_SRC text -n :async :results verbatim code
     structural linguistics
     structuralism
@@ -203,19 +206,6 @@ past times.
   
         In other words, it gives primacy to
         pattern over substance.
-  
-        Example:
-            To take a crude example, the colors
-            red, green, and amber take on the
-            meanings “stop,” “go,” and “caution”
-            in relation to each other, in the
-            context of a traffic light.
-  
-            In some other context, and in
-            opposition to other colors, red may
-            mean something completely different,
-            such as socialism or communism, or
-            humanity or sacrifice.
   
         Such meanings may be either part of a
         universal pattern or culturally
