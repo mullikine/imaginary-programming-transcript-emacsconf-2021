@@ -55,7 +55,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 #+latex: }
 
 * Imaginary Programming with Emacs
-*** Imaginary Programming (emacsconf 2021)
+*** Imaginary Programming (EmacsConf 2021)
 **** Objectives
 - Explain Imaginary Computing
   - AI imagination
