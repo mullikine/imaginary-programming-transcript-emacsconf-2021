@@ -409,7 +409,6 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+BEGIN_SRC yaml -n :async :results verbatim code
   task: "imagine evaluating emacs lisp"
   doc: "Given some elisp return the imagined result"
-  prompt-version: 1
   prompt: |+
     <code>
     (message (eval <expression>))
