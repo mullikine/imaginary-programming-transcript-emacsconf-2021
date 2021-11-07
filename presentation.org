@@ -517,7 +517,7 @@ Under the hood, =ilambda= uses =ieval=.
 #+end_src
 #+latex: }
 
-**** =idefun= (define imaginary function)
+**** =idefun= imagines instead of evaluates
 #+latex: {\tiny
 The =idefun= creates a binding to an imaginary
 function. The implementation of the =idefun=
