@@ -459,6 +459,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
      (x * x))
    "(double-number 5)")
 #+END_SRC
+#+latex: }
 
 #+latex: {\tiny
 #+RESULTS:
