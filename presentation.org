@@ -300,7 +300,7 @@ The models find useful data from more than just your current file.
 **** Freedom and GPL-3
 #+latex: {\tiny
 The problems with LMs:
-- they are so large and hidden behind SAAS,
+- they are too large currently for running privately and hidden behind SAAS,
 - they can see anything public (they are license-blinded. GPL-4 may neo be enough),
 - They can imagine software without needing original source
 #+latex: }
