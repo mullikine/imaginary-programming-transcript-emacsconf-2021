@@ -371,7 +371,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 **** Explanation
 + a bit like a functional programming library
-  in that you will find a set of functions and
+  in that you will find a set of basic functions and
   macros for working with LMs.
 
 * ilambda
@@ -386,6 +386,194 @@ secondly, evaluated expression. Either
 argument can either be a raw string containing
 code or a sexp, but the expression will be
 "one-line-ized" for the prompt.
+
+*** =imacro=
+An =imacro= actually imagines the
+implementation of a function.
+
+Components of the =imacro= should be inferred.
+An =imacro= with only a function name should
+work.
+
+Also, an =imacro= is under the hood a regular
+macro. This means, that expanding the =imacro=
+will infer/generate underlying code.
+
+[[./macro-expand-codex.gif]]
+
++ =pf-imagine-an-emacs-function/3= :: http://github.com/semiosis/prompts/blob/master/prompts/imagine-an-emacs-function-3.prompt
+
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  title: imagine an emacs function
+  task: "imagine an emacs lisp function given name, arguments and docstring"
+  doc: "Given a function name, arguments and docstring, return the imagined body of the function"
+  prompt-version: 1
+  prompt: |+
+    ;;my-emacs-library.el
+  
+    (defun <name> (<arguments>)
+      "<docstring>"
+  engine: "OpenAI Codex"
+  vars:
+  - "name"
+  - "arguments"
+  - "docstring"
+  examples:
+  - "times"
+  - "x y"
+  - "multiply two numbers and return a number"
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim raw
+  (car
+   (pen-single-generation
+    (pf-imagine-an-emacs-function/3
+     "times"
+     "x y"
+     "multiply two numbers and return a number"
+     :include-prompt t
+     :no-select-result t)))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (defun times (x y)
+    "multiply two numbers and return a number"
+    (* x y))
+#+END_SRC
+
+There are 3 different versions of =imacro=
+depending on how many arguments are supplied to
+it.
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (defmacro imacro/3 (name args docstr)
+    "Does not evaluate. It merely generates code."
+    (let* ((argstr (apply 'cmd (mapcar 'slugify (mapcar 'str args))))
+           (bodystr
+            (car
+             (pen-single-generation
+              (pf-imagine-an-emacs-function/3
+               name
+               argstr
+               docstr
+               :include-prompt t
+               :no-select-result t))))
+           (body (eval-string (concat "'" bodystr))))
+      `(progn ,body)))
+  
+  (defmacro imacro/2 (name args)
+    "Does not evaluate. It merely generates code."
+    (let* ((argstr (apply 'cmd (mapcar 'slugify (mapcar 'str args))))
+           (bodystr
+            (car
+             (pen-single-generation
+              (pf-imagine-an-emacs-function/2
+               name
+               argstr
+               :include-prompt t
+               :no-select-result t))))
+           (body (eval-string (concat "'" bodystr))))
+      `(progn ,body)))
+  
+  (defmacro imacro/1 (name)
+    "Does not evaluate. It merely generates code."
+    (let* ((bodystr
+            (car
+             (pen-single-generation
+              (pf-imagine-an-emacs-function/1
+               name
+               :include-prompt t
+               :no-select-result t))))
+           (body (eval-string (concat "'" bodystr))))
+      `(progn ,body)))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (imacro/3 my/itimes (a b c) "multiply three complex numbers")
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (progn
+    (defun my-times
+        (x y z)
+      "multiply three numbers and return a number"
+      (* x y z)))
+#+END_SRC
+
+/=imacro= expansion demo/
+
+#+BEGIN_EXPORT html
+<!-- Play on asciinema.com -->
+<!-- <a title="asciinema recording" href="https://asciinema.org/a/TFjZGxMf0zhT59T7U3tO8uwY5" target="_blank"><img alt="asciinema recording" src="https://asciinema.org/a/TFjZGxMf0zhT59T7U3tO8uwY5.svg" /></a> -->
+<!-- Play on the blog -->
+<script src="https://asciinema.org/a/TFjZGxMf0zhT59T7U3tO8uwY5.js" id="asciicast-TFjZGxMf0zhT59T7U3tO8uwY5" async></script>
+#+END_EXPORT
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (imacro/2 my/subtract (a b c))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (progn
+    (defun my-subtract
+        (a b c)
+      "Subtract B from A and return the result."
+      (setq result
+            (+ a
+               (- b c)))
+      result))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (imacro/1 my/subtract)
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (progn
+    (defun my-subtract
+        (a b)
+      "Subtract A - B."
+      (- a b)))
+#+END_SRC
+
+=defimacro=
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (defmacro defimacro (name &rest body)
+    "Define imacro"
+    (cond
+     ((= 0 (length body))
+      `(imacro/1
+        ,name))
+     ((= 1 (length body))
+      `(imacro/2
+        ,name
+        ,(car body)))
+     ((= 2 (length body))
+      `(imacro/3
+        ,name
+        ,(car body)
+        ,(cadr body)))))
+#+END_SRC
+
+All of the following are valid ways to invoke =defimacro=.
+
+=defimacro= selects the right =imacro/N= function depending on the arity of the arguments.
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (defimacro my/subtract)
+  (defimacro my/subtract (a b c))
+  (defimacro my/itimes (a b c)
+     "multiply three complex numbers")
+#+END_SRC
+
+#+BEGIN_EXPORT html
+<!-- Play on asciinema.com -->
+<!-- <a title="asciinema recording" href="https://asciinema.org/a/19czBa4Qyncgtg1JFi5JQLmfi" target="_blank"><img alt="asciinema recording" src="https://asciinema.org/a/19czBa4Qyncgtg1JFi5JQLmfi.svg" /></a> -->
+<!-- Play on the blog -->
+<script src="https://asciinema.org/a/19czBa4Qyncgtg1JFi5JQLmfi.js" id="asciicast-19czBa4Qyncgtg1JFi5JQLmfi" async></script>
+#+END_EXPORT
+
 
 * Paracosm Browser
 ** Pen.el v2
