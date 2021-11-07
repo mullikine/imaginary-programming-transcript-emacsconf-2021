@@ -110,6 +110,24 @@ Prompt and Predict".
 - Facebook / Meta
   - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of imagination with Meta]]
 
+* Imaginary Computing
+** Imaginary Web
+ #+BEGIN_SRC text -n :async :results verbatim code
+   imaginary internet
+   imaginary web
+       An imaginary world-wide-web is an
+       analog of the World-Wide-Web imagined by a
+       language model.
+ #+END_SRC
+
+*** Paracosm vs Metaverse
+- Paracosm
+  - Privacy
+  - Personal truth
+  - Freedom of imagination
+- Metaverse
+  - Getting cozy with Mark Zuckerberg's imaginarium, an intellectual prison
+
 * Preliminaries
 ** GPT-3
 *** Text Generator
