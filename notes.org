@@ -38,7 +38,9 @@ order to keep websites textual.
 - https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/
 
 ** Intelligent NFTs
-An NFT is like a trading card, or piece of media, and as people
+An =NFT= is like a trading card, or piece of media, and as people.
+
+An =iNTF=, however, also contains a prompt and associated language model, which is intended to interpret the prompt.
 
 - https://alethea.ai/
 
