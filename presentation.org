@@ -282,7 +282,9 @@ Imaginary programming is an extension of literate programming.
 
 **** Practical application: mocking APIs
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
-
+  (ieval
+   
+   )
 #+END_SRC
 
 * Explanations
