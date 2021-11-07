@@ -135,7 +135,7 @@ The AI learns all human capabilities including persuasion.
 **** Solution
 Decentralise microtasks.
 
-https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)
+[[./tower-of-babel.jpg]]
 
 * Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
