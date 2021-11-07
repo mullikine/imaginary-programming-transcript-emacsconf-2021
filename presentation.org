@@ -127,6 +127,9 @@ Prompt and Predict".
 **** Meta-tasks and microtasks
 - [[https://www.axios.com/copilot-artificial-intelligence-coding-github-9a202f40-9af7-4786-9dcb-b678683b360f.html][AI programming tool Copilot helps write up to 30% of code on GitHub - Axios]]
 
+Private information is sent to the LM to train
+an AI to perform meta tasks and microtasks.
+
 * Imaginary Computing
 *** Imaginary Computing: Paracosm vs Metaverse
 **** Imaginary Web
