@@ -26,8 +26,14 @@ Objectives:
 - [[https://arxiv.org/abs/2107.13586][https://arxiv.org/abs/2107.13586 Pre-train, Prompt, and Predict]]
 
 * Imaginary Computing
+** Language Models is programming for AIs
+LMs are our best friends in the AI model
+menagerie because they make things
+intelligible -- by understanding our textual
+languages.
+
 ** AI Imagination
-- [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI - Rothschild Foundation Lecture - YouTube]]
+- [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI]]
 
 ** Example: AI Art described by AI
 I use AlephAlpha’s multimodal LM to generate

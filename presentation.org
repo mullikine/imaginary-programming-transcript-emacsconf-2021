@@ -69,7 +69,8 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 - Demo Imaginary Programming
   - Demonstrate =ilambda.el=
 
-* Based on Language Models
+* Basis
+** 
  LMs are our best friends in the AI model
  menagerie because they make things
  intelligible -- by understanding our textual
