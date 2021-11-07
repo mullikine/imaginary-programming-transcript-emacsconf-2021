@@ -451,7 +451,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+END_SRC
 #+latex: }
 
-**** Example. It's used as a primitive to the =ilambda.el= =ilambda=
+**** Example
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (ieval
@@ -470,6 +470,13 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
+**** =ilambda= =explanation=
+=ilambda= is useful primitive of the
+=ilambda.el= library which is built into
+=Pen.el=.
+
+Under the hood, =ilambda= uses =ieval=.
+
 **** =ilambda=
 
 *** =imacro= generates code
