@@ -116,7 +116,7 @@ Prompt and Predict".
   - [[https://www.marktechpost.com/2021/11/06/microsoft-ai-introduces-turing-bletchley-a-2-5-billion-parameter-universal-image-language-representation-model-t-uilr/][MS models that reify imagination on their terms]]
   - The evil twin of =AlephAlpha=.
 - Facebook / Meta
-  - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of imagination with Meta]]
+  - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of Zuck's imagination with Meta]]
 
 * Imaginary Computing
 *** Paracosm vs Metaverse
