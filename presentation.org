@@ -81,6 +81,7 @@ languages and how they relate to the world
 
 **** Research
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI]]
+- https://aleph-alpha.de/techblog/95_the_end_of_the_era_imagenet
 
 * Imaginary Computing
 *** Imaginary Computing: Emacs as the shell
