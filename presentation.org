@@ -171,6 +171,7 @@ reconfigurations of our world, or
 simply relive the ideal projections of
 past times.
 
+*** Philosophy
 **** Truth (epistemology and alethiology)
   The Future of Humanity Institute (Oxford)
   seems to think this is an important topic.
@@ -182,8 +183,7 @@ past times.
   - Blockchain is a source of consensus, a type of truth
     - https://mullikine.github.io/posts/language-models-as-truth/
 
-
-
+*** Philosophy
 **** Structuralism: Language based on sign relations
   What do these things have in common:
   - Universal Grammar (UG) / Language Acquisition
