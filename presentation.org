@@ -272,7 +272,9 @@ Answer:
 - Foundational knowledge exists at compile-time (DNA, preprocessor, training).
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
+#+latex: {\tiny
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
+#+latex: }
 
 **** Structuralism: Language descibed in terms of sign relations
 #+latex: {\tiny
