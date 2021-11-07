@@ -281,13 +281,16 @@ Imaginary programming is an extension of literate programming.
 - Literate programming with =org-mode=
 
 **** Practical application: mocking APIs
+As you can see, anything inside the =ieval/m=
+macro does not have to be valid emacs lisp.
+
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
-  (upd (ieval (curl "http://api.kfc.com/recipes/list&json=true")))
+  (ieval/m (curl -s "https://api.github.com/user/semiosis/repos?per_page=10&page=1"))
 #+END_SRC
 
 #+RESULTS:
 #+begin_src emacs-lisp
-"\"finished HTTP response\""
+"\"[((name . \\\"guix\\\") (description . \\\"The GNU package manager\\\") (updated_at . \\\"2014-04-21T18:49:59Z\\\") (created_at . \\\"2014-04-21T18:49:59Z\\\") (pushed_at . \\\"2014-04-21T18:49:59Z\\\")) ((name . \\\"guix-patches\\\") (description . \\\"Packages from the GNU guix package manager\\\") (updated_at . \\\"2014-04-21T18:49:59Z\\\") (created_at . \\\"2014-04-21T18:49:59Z\\\") (pushed_at . \\\"2014-04-21T18:49:59Z\\\")) ((name . \\\"guix-patches-all\\\") (description . \\\"Packages from the GNU guix package manager\\\") (updated_at . \\\"2014-04-21T18:49:59\""
 #+end_src
 
 * Explanations
