@@ -423,12 +423,6 @@ code or a sexp, but the expression will be
     (message (eval <expression>))
     --> 
   engine: "OpenAI Codex"
-  temperature: 0.2
-  max-generated-tokens: 60
-  top-p: 1.0
-  cache: on
-  stop-sequences:
-  - "\n"
   vars:
   - "code"
   - "expression"
