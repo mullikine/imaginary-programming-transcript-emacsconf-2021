@@ -323,3 +323,16 @@ blockchains.
 
 **** 𝑖λ (ilambda.el)
 - https://semiosis.github.io/ilambda/
+
+* ilambda
+*** 𝑖λ (ilambda.el)
+I design and build an =IP= library named
+=𝑖λ.el= for emacs. Think of it a bit like a
+functional programming library in that you
+will find a set of functions and macros for
+working in the programming paradigm. The
+objective here is to create some functions for
+doing IP in emacs lisp, since emacs lisp has
+the expressive power to prototype such things,
+but the ideas contained here can easily be
+transferred to any other programming language.
