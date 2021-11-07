@@ -501,6 +501,19 @@ Under the hood, =ilambda= uses =ieval=.
 #+END_SRC
 #+latex: }
 
+#+latex: {\tiny
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (-reduce (𝑖λ (x y) "add x to y") (number-sequence 1 3))
+#+END_SRC
+#+latex: }
+
+#+latex: {\tiny
+#+RESULTS:
+#+begin_src emacs-lisp
+"6"
+#+end_src
+#+latex: }
+
 *** =imacro= generates code
 #+latex: {\tiny
 Expanding the =imacro= either runtime or 
