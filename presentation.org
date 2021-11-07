@@ -299,7 +299,7 @@ Each =sNFT= is a _functor_ because it's meant to
 be called as a function, but has particular
 side-effects.
 
-The =ilambda.el= primitives are =ieval=, =imacro= and =idefun=. The currently only a language model as a
+The =ilambda.el= primitives are =ieval=, =imacro= and =idefun=. They currently only a language model as a
 parameter, but in future this will be an =sNFT=.
 
 * Freedom
