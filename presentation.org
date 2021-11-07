@@ -553,10 +553,11 @@ of the function as opposed to generate code.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
-**** Override language model parameters with =pen-force=
+**** Override language model parameters with dynamic scope
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim raw
   (idefun sha-hash-string (s))
   
+  ;; Override language model parameters with pen-force
   (pen-force
    ((temperature 0.0))
    (sha-hash-string "sugar shane"))
