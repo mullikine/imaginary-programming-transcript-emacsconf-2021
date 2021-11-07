@@ -319,6 +319,7 @@ a Language Model such as GPT-3.
 
 * Blockchain and a language model is all you need
 *** Blockchain and a Language model is all you need
+**** 𝑖λ (ilambda.el)
 
 ** Using =pen.el=
 *** =pen.el=
