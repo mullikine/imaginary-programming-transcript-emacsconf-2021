@@ -43,7 +43,6 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 *** Following along
 **** Repositories for following along
 #+latex: {\tiny
-#+latex: {\footnotesize
 | http://github1s.com/semiosis/pen.el                                 |
 | http://github1s.com/semiosis/prompts                                |
 | https://mullikine.github.io/posts/imaginary-programming-with-gpt-3/ |
