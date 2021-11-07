@@ -88,8 +88,8 @@ I use AlephAlpha’s multimodal LM to generate
 =Alt text= for the eww web browser. This is in
 order to keep websites textual.
 
-- [[https://mullikine.github.io/posts/alephalpha-for-alttext/][AlephAlpha for alttext; Browsing the paracosm // Bodacious Blog]]
-- [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha // Bodacious Blog]]
+- [[https://mullikine.github.io/posts/alephalpha-for-alttext/][AlephAlpha for alttext; Browsing the paracosm]]
+- [[https://mullikine.github.io/posts/describing-melee-s-paintings-with-alephalpha/][Describing Melee's Paintings with AlephAlpha]]
 
 * Imaginary Computing
 *** Imaginary Computing: Blockchain
