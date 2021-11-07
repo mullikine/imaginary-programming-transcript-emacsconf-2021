@@ -85,7 +85,7 @@ languages.
 *** Imaginary Computing: Emacs as the shell
 **** Example: AI Art described by AI
 I use AlephAlpha’s multimodal LM to generate
-alttext for the eww web browser. This is in
+=Alt text= for the eww web browser. This is in
 order to keep websites textual.
 
 - [[https://mullikine.github.io/posts/alephalpha-for-alttext/][AlephAlpha for alttext; Browsing the paracosm // Bodacious Blog]]
