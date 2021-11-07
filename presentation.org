@@ -349,7 +349,7 @@ blockchains.
 - https://semiosis.github.io/ilambda/
 
 * ilambda
-*** 𝑖λ (ilambda.el)
+*** ilambda.el
 **** Code
 An =IP= library named =𝑖lambda.el= for emacs.
 
