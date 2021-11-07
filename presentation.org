@@ -42,25 +42,17 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 * Presentation
 *** Following along
 **** Repositories for following along
+#+latex: {\tiny
 #+latex: {\footnotesize
-| http://github1s.com/semiosis/pen.el                                           |
-| http://github1s.com/semiosis/prompts                                          |
-| https://mullikine.github.io/posts/imaginary-programming-with-gpt-3/           |
-| [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt][imaginary programming glossary]] |
-| [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-computing.txt][imaginary computing glossary]]
-| [[http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt][semiosis protocol glossary]]
-| [[http://github.com/semiosis/glossaries-gh/blob/master/pen.el.txt][Pen.el glossary]]
-| [[https://arxiv.org/abs/2107.13586][https://arxiv.org/abs/2107.13586 Pre-train, Prompt, and Predict]]
-#+latex: }
-
-#+latex: {\tiny
-_*slides*_
-| http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021 |
-#+latex: }
-
-#+latex: {\tiny
-_*glossary*_
-| http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt |
+| http://github1s.com/semiosis/pen.el                                 |
+| http://github1s.com/semiosis/prompts                                |
+| https://mullikine.github.io/posts/imaginary-programming-with-gpt-3/ |
+| [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt][imaginary programming glossary]]                                      |
+| [[http://github.com/semiosis/glossaries-gh/blob/master/imaginary-computing.txt][imaginary computing glossary]]                                        |
+| [[http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt][semiosis protocol glossary]]                                          |
+| [[http://github.com/semiosis/glossaries-gh/blob/master/pen.el.txt][Pen.el glossary]]                                                     |
+| [[https://arxiv.org/abs/2107.13586][https://arxiv.org/abs/2107.13586 Pre-train, Prompt, and Predict]]     |
+| [[http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021][talk transcript]]                                                     |
 #+latex: }
 
 **** Demo

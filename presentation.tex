@@ -1,0 +1,566 @@
+% Created 2021-11-07 Sun 13:57
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation]{beamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usetheme[height=20pt]{Rochester}
+\author{Shane Mulligan \\  }
+\date{\textit{<2021-03-01 Mon>}}
+\title{Presenting\ldots{} \\   \emph{\alert{Imaginary Programming with Emacs}} \\  }
+\hypersetup{
+ pdfauthor={Shane Mulligan \\  },
+ pdftitle={Presenting\ldots{} \\   \emph{\alert{Imaginary Programming with Emacs}} \\  },
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.50 (Org mode 9.3.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Presentation}
+\label{sec:org8f066b8}
+\begin{frame}[label={sec:org9650348}]{Following along}
+\begin{block}{Repositories for following along}
+{\footnotesize
+\begin{center}
+\begin{tabular}{l}
+\url{http://github1s.com/semiosis/pen.el}\\
+\url{http://github1s.com/semiosis/prompts}\\
+\url{https://mullikine.github.io/posts/imaginary-programming-with-gpt-3/}\\
+\href{http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt}{imaginary programming glossary}\\
+\href{http://github.com/semiosis/glossaries-gh/blob/master/imaginary-computing.txt}{imaginary computing glossary}\\
+\href{http://github.com/semiosis/glossaries-gh/blob/master/semiosis-protocol.txt}{semiosis protocol glossary}\\
+\href{http://github.com/semiosis/glossaries-gh/blob/master/pen.el.txt}{Pen.el glossary}\\
+\href{https://arxiv.org/abs/2107.13586}{https://arxiv.org/abs/2107.13586 Pre-train, Prompt, and Predict}\\
+\end{tabular}
+\end{center}
+}
+
+{\tiny
+\uline{\alert{slides}}
+\begin{center}
+\begin{tabular}{l}
+\url{http://github1s.com/mullikine/imaginary-programming-transcript-emacsconf-2021}\\
+\end{tabular}
+\end{center}
+}
+
+{\tiny
+\uline{\alert{glossary}}
+\begin{center}
+\begin{tabular}{l}
+\url{http://github.com/semiosis/glossaries-gh/blob/master/imaginary-programming.txt}\\
+\end{tabular}
+\end{center}
+}
+\end{block}
+
+\begin{block}{Demo}
+\end{block}
+\end{frame}
+
+\section{Preliminaries}
+\label{sec:org1ef2c81}
+\subsection{GPT-3}
+\label{sec:org4a332f5}
+\begin{frame}[label={sec:org2cba5a8},fragile]{Text Generator}
+ \begin{block}{Background knowledge}
+{\footnotesize
+\begin{itemize}
+\item \texttt{GPT-3} is a \texttt{seq2seq} model (a text generator)
+\begin{itemize}
+\item It's stochastic but can be configured to be deterministic.
+\end{itemize}
+\end{itemize}
+}
+\end{block}
+
+\begin{block}{Key concepts}
+{\footnotesize
+\begin{itemize}
+\item prompt,
+\item completion, and
+\item tokens
+\end{itemize}
+}
+\end{block}
+
+\begin{block}{Limitations}
+{\footnotesize
+Combined, the text prompt and generated
+completion must be below 2048 tokens (roughly
+\textasciitilde{}1500 words).
+
+\begin{description}
+\item[{context-stuffing}] With only 2048 tokens, you need to make
+use of your real estate by providing
+instructions and making implicit
+information explicit.
+\end{description}
+}
+\end{block}
+\end{frame}
+
+\subsection{A new programming paradigm}
+\label{sec:org7b7b70b}
+\begin{frame}[label={sec:orgf36e594},fragile]{Prompt Engineering}
+ \begin{block}{Characteristics}
+{\footnotesize
+\begin{itemize}
+\item declarative, like \texttt{html}
+\item stochastic, like \texttt{problog}
+\item Unlocks new types of applications
+\item Speeds up development
+\end{itemize}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org5c973c1},fragile]{Some prompts I've made}
+ \begin{block}{\texttt{generate-vim-command.prompt}}
+{\footnotesize
+\begin{verbatim}
+ 1  Vim
+ 2  
+ 3  Insert "Q: " at the start of the line
+ 4  :%s/^/Q: /g.
+ 5  ###
+ 6  Remove whitespace from the start of each line
+ 7  :%s/^\s*/\1/g
+ 8  ###
+ 9  Join each line with the next line
+10  :1,$j
+11  ###
+12  Make all occurrences of Steve lowercase
+13  :%s/Steve/steve/g
+14  ###
+15  <1>
+\end{verbatim}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org9c7e9d1}]{Tasks suitable for GPT-3}
+\begin{block}{Classification}
+\begin{itemize}
+\item Tweet Sentiment
+\item Company categorization
+\item Labeling parts of speech
+\end{itemize}
+
+{\footnotesize
+\begin{itemize}
+\item \url{http://github.com/semiosis/prompts/blob/master/prompts/tweet-sentiment-classifier.prompt}
+\item \url{http://github.com/semiosis/prompts/blob/master/prompts/keyword-extraction.prompt}
+\end{itemize}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org73bb203}]{Tasks suitable for GPT-3}
+\begin{block}{Generation}
+\begin{itemize}
+\item Idea Generator
+\end{itemize}
+
+Come up with silly inventions.
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./silly-inventions.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org4d2847c}]{Tasks suitable for GPT-3}
+\begin{block}{Conversation}
+\begin{itemize}
+\item Q\&A agent
+\item Sarcastic chatbot
+\end{itemize}
+
+{\footnotesize
+\url{http://github.com/semiosis/prompts/blob/master/prompts/sarcastic-response.prompt}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org5f613ea},fragile]{Design patterns}
+ Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+\begin{block}{1. Reflective description of the task}
+State what the prompt does at the start.
+
+At the start of the example we state in plain
+language what the classifier does:
+
+\begin{verbatim}
+1  This is a tweet sentiment classifier.
+\end{verbatim}
+
+By stating this up front, it helps the API
+understand much more quickly what the goal of
+the response is supposed to be and you’ll end
+needing to provide fewer examples.
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org2bbb9af},fragile]{Design patterns}
+ Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+\begin{block}{2. Use separators between examples}
+Example: \texttt{\#\#\#}.
+
+You can use other characters or line breaks,
+but \texttt{\#\#\#} works pretty consistently and is
+also an easy to use stop sequence.
+
+Whatever separator you use, make sure that
+it’s clear to the API where an example starts
+and stops.
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org419644c},fragile]{Design patterns}
+ Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+\begin{block}{3. Mutiplexer Part 1}
+Make a prompt more efficient / cheaper.
+
+Design it to generate multiple results from
+one API call.
+
+{\tiny
+\begin{verbatim}
+ 1  This is a tweet sentiment classifier
+ 2  Tweet: "I loved the new Batman movie!"
+ 3  Sentiment: Positive
+ 4  ###
+ 5  Tweet: "I hate it when my phone battery dies"
+ 6  Sentiment: Negative
+ 7  ###
+ 8  Tweet: "My day has been 👍"
+ 9  Sentiment: Positive
+10  ###
+11  Tweet: "This is the link to the article"
+12  Sentiment: Neutral
+13  ###
+14  Tweet text
+\end{verbatim}
+
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org8c4dd3f},fragile]{Design patterns}
+ Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+\begin{block}{3. Mulitplexer Part 2}
+{\tiny
+\begin{verbatim}
+ 1  1. "I loved the new Batman movie!"
+ 2  2. "I hate it when my phone battery dies"
+ 3  3. "My day has been 👍"
+ 4  4. "This is the link to the article"
+ 5  5. "This new music video blew my mind"
+ 6  
+ 7  Tweet sentiment ratings:
+ 8  1: Positive
+ 9  2: Negative
+10  3: Positive
+11  4: Neutral
+12  5: Positive
+13  
+14  ###
+15  Tweet text
+\end{verbatim}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org8a88c26},fragile]{Design patterns}
+ Taken from Prompt Design 101.
+
+These are manual techniques which should be
+encoded in a DSL when generating prompts.
+
+\begin{block}{3. Multiplexer Part 3}
+{\footnotesize
+\begin{verbatim}
+1  "I can't stand homework"
+2  "This sucks. I'm bored 😠"
+3  "I can't wait for Halloween!!!"
+4  "My cat is adorable ❤️❤️"
+5  "I hate chocolate"
+6  Tweet sentiment ratings:
+7  1.
+\end{verbatim}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org4b8bedc}]{Techniques}
+\begin{block}{Query Reformulation}
+\url{https://www.sciencedirect.com/topics/computer-science/query-reformulation}
+
+You can improve the quality of the responses
+by making a longer more diverse list in your
+prompt.
+
+One way to do that is to start off with one
+example, let the API generate more and select
+the ones that you like best and add them to
+the list.
+
+A few more high-quality variations can
+dramatically improve the quality of the
+responses.
+\end{block}
+\end{frame}
+
+\section{Explanations}
+\label{sec:org9b4f8c8}
+\subsection{Using \texttt{pen.el}}
+\label{sec:org791c6e4}
+\begin{frame}[label={sec:orgbc724a3},fragile]{\texttt{pen.el}}
+ \begin{block}{\texttt{pen.el}: Prompt Engineering in emacs}
+{\footnotesize
+\texttt{pen.el} facilitates the creation,
+development, discovery and usage of prompts to
+a Language Model such as GPT-3.
+
+\begin{itemize}
+\item Create elisp functions based on GPT-3 prompts
+\item Chain GPT-3 queries together using keyboard macros and functions
+\item Interactively query, generate and transfrom both prose and code
+\item Use GPT-3 as a search engine within emacs
+\end{itemize}
+}
+\end{block}
+\end{frame}
+
+\subsection{Using \texttt{pen.el}}
+\label{sec:orgbdb1c02}
+\begin{frame}[label={sec:org3af8993},fragile]{\texttt{pen.el}}
+ \begin{block}{\texttt{pen.el} modes Part 1}
+{\footnotesize
+\uline{\alert{Prompt-Engineering Minor Mode}}
+
+\texttt{prompt-engineering-mode} is a global minor
+mode for emacs that provides keybindings for
+creating and executing prompts generally
+across emacs.
+
+\uline{\alert{Prompt Description Major Mode}}
+
+\texttt{prompt-description-mode} is a major mode for
+editing \texttt{.prompt} files.
+
+The \texttt{.prompt} file format is based on YAML and
+an associated schema, which defines the keys
+which are expected.
+}
+\end{block}
+\end{frame}
+
+\subsection{Using \texttt{pen.el}}
+\label{sec:orgfe91fb7}
+\begin{frame}[label={sec:orgef2a4c8},fragile]{\texttt{pen.el}}
+ \begin{block}{\texttt{pen.el} modes Part 2}
+{\footnotesize
+\uline{\alert{Pen Messenger Minor Mode}}
+
+\texttt{pen-messenger-mode} is a minor mode for
+enhancing an emacs-based messenger client with
+GPT-3 capabilities, such as emoji generation.
+
+\uline{\alert{Pen Conversation Mode}}
+
+\texttt{prompt-conversation-mode} is a major mode designed to facilitate
+ongoing conversation with a prompt-based GPT-3 chatbot.
+
+\uline{\alert{GPT-3 Training Mode}}
+
+The goal of this mode is to facilitate the
+workflow of training on OpenAI's API.
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:orgc6ea1a9},fragile]{Prompt YAML format Part 1}
+ \begin{block}{\texttt{meeting-bullets-to-summary.prompt}}
+\begin{verbatim}
+ 1  title: "meeting bullet points to summary"
+ 2  prompt: |+
+ 3      Convert my short hand into a first-hand
+ 4      account of the meeting:
+ 5  
+ 6      <1>
+ 7  
+ 8      Summary:
+ 9  engine: "davinci-instruct-beta"
+10  temperature: 0.7
+11  max-tokens: 60
+\end{verbatim}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org45c0298},fragile]{Prompt YAML format Part 2}
+ \begin{block}{\texttt{meeting-bullets-to-summary.prompt}}
+\begin{verbatim}
+1  top-p: 1
+2  frequency-penalty: 0.0
+3  presence-penalty: 0.0
+4  best-of: 1
+5  stop-sequences:
+6  - "\n\n"
+7  conversation-mode: no
+8  stitch-max: 0
+\end{verbatim}
+
+\begin{description}
+\item[{stitch-max}] Keep stitching together until reaching this limit.
+This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+\end{description}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org32f1a99},fragile]{Prompt YAML format: Part 3}
+ \begin{block}{\texttt{meeting-bullets-to-summary.prompt}}
+\begin{verbatim}
+1  vars:
+2  - "notes"
+3  examples:
+4  - |+
+5      Tom: Profits up 50%
+6      Jane: New servers are online
+7      Kjel: Need more time to fix software
+8      Jane: Happy to help
+9      Parkman: Beta testing almost done
+\end{verbatim}
+\end{block}
+\end{frame}
+
+\section{\texttt{semiosis}}
+\label{sec:org261a709}
+\subsection{\texttt{pen.el}}
+\label{sec:org0478860}
+\begin{frame}[label={sec:orgc64ae0a},fragile]{\texttt{Prompts as functions}}
+ \begin{block}{\texttt{pen-generate-prompt-functions}}
+Generate prompt functions for the files in the
+prompts directory Function names are prefixed
+with \texttt{pen-pf-} for easy searching.
+
+\url{http://github.com/semiosis/prompts}
+\end{block}
+\end{frame}
+
+\subsection{\texttt{examplary}}
+\label{sec:org6a23be1}
+\begin{frame}[label={sec:orgb0e07c1},fragile]{\texttt{examplary}: examples as functions}
+ An example-oriented DSL that can be used to
+construct and compose NLP tasks.
+
+Why is a DSL needed for this? Just to make the
+code a little more terse.
+
+\begin{block}{Regex}
+\url{https://github.com/pemistahl/grex}
+
+{\footnotesize
+\begin{verbatim}
+1  (def regex
+2    "example 1\nexample2" "^example [12]$"
+3    "example 2\nexample3" "^example [23]$"
+4    "pi4\npi5" "^pi[45]$")
+\end{verbatim}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org8cc4d8b},fragile]{\texttt{examplary}: examples as functions}
+ \begin{block}{Analogy}
+{\footnotesize
+\begin{verbatim}
+ 1  (def analogy
+ 2    ;; Each line is a training example.
+ 3    "NNs" "NNs are like genetic algorithms in
+ 4    that both are systems that learn from
+ 5    experience"
+ 6    "Social media" "Social media is like a
+ 7    market in that both are systems that
+ 8    coordinate the actions of many
+ 9    individuals.")
+10  
+11  (def field
+12    "chemistry" "study of chemicals"
+13    "biology" "study of living things")
+\end{verbatim}
+}
+\end{block}
+\end{frame}
+
+\section{Demonstrations}
+\label{sec:orgeb58518}
+\begin{frame}[label={sec:orge03e631}]{Something funny}
+\begin{block}{Vexate a simple instruction}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./complicate.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:org11db506}]{Something funny}
+\begin{block}{How to crack an egg}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./crack-an-egg.png}
+\end{center}
+\end{block}
+\end{frame}
+
+\begin{frame}[label={sec:orgfe35ec5}]{Create a prompt}
+\begin{block}{Ask the audience}
+\begin{itemize}
+\item What type of text to generate
+\begin{itemize}
+\item Could be code, prose, etc.
+\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{Appendix}
+\label{sec:orgcdb097d}
+\subsection{Additional reading}
+\label{sec:org6f828c9}
+\begin{frame}[label={sec:orgaf08ff0}]{Tutorials}
+\begin{block}{Ruby}
+{\footnotesize
+\url{https://www.twilio.com/blog/generating-cooking-recipes-openai-gpt3-ruby}
+}
+\end{block}
+\end{frame}
+\end{document}
