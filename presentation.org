@@ -135,7 +135,10 @@ The AI learns all human capabilities including persuasion.
 **** Solution
 Decentralise microtasks like the tower of babel.
 
-Language can be broken up into semiotic triadic relations.
+Language can be broken up into semiotic
+triadic relations and decentralised using a
+p2p network, providing anonymity, protecting
+individual truth, eroding centralised language power.
 
 [[./tower-of-babel.jpg]]
 
