@@ -471,7 +471,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 * ilambda
 *** ilambda.el (EmacsConf 2021)
 **** =ilambda= =explanation=
-=ilambda= is useful primitive of the
+=ilambda= is a useful primitive of the
 =ilambda.el= library which is built into
 =Pen.el=.
 
