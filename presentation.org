@@ -251,25 +251,25 @@ past times.
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 **** Truth (epistemology and alethiology)
-  The Future of Humanity Institute (Oxford)
-  seems to think this is an important topic.
+The Future of Humanity Institute (Oxford)
+seems to think this is an important topic.
 
-  - [[https://arxiv.org/abs/2110.06674][ 2110.06674  Truthful AI]]
-  - Datasets are a source of constructivist truth
-  - Language models are snaphots of society, and a source of several types of truth
-    - [[https://www.youtube.com/watch?v=kP-dXK9JEhY][Symbolic Knowledge Distillation]]
-  - Blockchain is a source of consensus, a type of truth
-    - https://mullikine.github.io/posts/language-models-as-truth/
+- [[https://arxiv.org/abs/2110.06674][ 2110.06674  Truthful AI]]
+- Datasets are a source of constructivist truth
+- Language models are snaphots of society, and a source of several types of truth
+  - [[https://www.youtube.com/watch?v=kP-dXK9JEhY][Symbolic Knowledge Distillation]]
+- Blockchain is a source of consensus, a type of truth
+  - https://mullikine.github.io/posts/language-models-as-truth/
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 **** Structuralism: Language based on sign relations
-  What do these things have in common?
-  - Universal Grammar (UG) / Language Acquisition
-  - C++ template metaprogramming
-  - GPT-3 / Foundation models
+What do these things have in common?
+- Universal Grammar (UG) / Language Acquisition
+- C++ template metaprogramming
+- GPT-3 / Foundation models
 
-Foundational knowledge exists at compile-time
-(DNA, preprocessor, training).
+Answer:
+- Foundational knowledge exists at compile-time (DNA, preprocessor, training).
 
 *** Imaginary Computing (IC) Philosophy (EmacsConf 2021)
 http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
