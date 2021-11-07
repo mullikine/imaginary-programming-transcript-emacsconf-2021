@@ -185,6 +185,7 @@ Benefits:
 - [[https://semiosis.github.io/examplary/][example-oriented lanugages]]
 - [[https://mullikine.github.io/posts/autofix-code-with-codex/][Autofixing code based on error messages]]
 - [[https://mullikine.github.io/posts/imaginary-equivalence-needs-blockchain/][Imaginary equivalence testing]]
+- [[https://mullikine.github.io/posts/generating-grammars-with-codex/][Create languages from descriptions]]
 
 *** Paracosm vs Metaverse
 **** Definitions
