@@ -588,7 +588,7 @@ of the function as opposed to generate code.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
-**** How to define an ifunction?
+**** How to define an imaginary function?
 An imaginary function is defined by its name,
 arguments and or comments alone.
 
