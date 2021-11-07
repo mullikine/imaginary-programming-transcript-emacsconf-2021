@@ -13,7 +13,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 @@latex:\includegraphics{/home/shane/dump/home/shane/notes/uni/cosc/420_Neural Networks_S1/research/case-for-learned-index-structures/frontpage.png}@@
 #+END_COMMENT
 
-#+TITLE:     Presenting... {{{NEWLINE}}} /*Imaginary Programming with Emacs*/ {{{NEWLINE}}}
+#+TITLE:     emacsconf 2021... {{{NEWLINE}}} /*Imaginary Programming with Emacs*/ {{{NEWLINE}}}
 #+AUTHOR:    Shane Mulligan {{{NEWLINE}}}
 #+EMAIL:     mullikine@gmail.com
 #+DATE:      <2021-03-01 Mon>
