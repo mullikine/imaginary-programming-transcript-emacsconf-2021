@@ -424,9 +424,6 @@ An =IP= library named =𝑖lambda.el= for emacs.
       (defun double-number (x)
         (x * x))
   - "(double-number 5)"
-  filter: on
-  completion: off
-  insertion: off
 #+END_SRC
 #+latex: }
 
