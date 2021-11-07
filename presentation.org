@@ -119,8 +119,10 @@ Prompt and Predict".
   - [[https://twitter.com/Meta/status/1456269728687689738?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet][tweet - Enter a world of imagination with Meta]]
 
 * Imaginary Computing
+*** Paracosm vs Metaverse
 **** Imaginary Web
-This is a network of paracosms and metaverses.
+The imaginary web is a network of paracosms
+and metaverses.
 
  #+BEGIN_SRC text -n :async :results verbatim code
    imaginary internet
@@ -129,6 +131,10 @@ This is a network of paracosms and metaverses.
        analog of the World-Wide-Web imagined by a
        language model.
  #+END_SRC
+
+An imaginary-web browser for emacs.
+
+- https://semiosis.github.io/looking-glass/
 
 *** Paracosm vs Metaverse
 - Paracosm
