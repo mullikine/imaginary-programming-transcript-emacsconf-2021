@@ -340,12 +340,12 @@ An =IP= library named =𝑖λ.el= for emacs.
 * ilambda
 *** 𝑖λ (ilambda.el)
 **** =ieval=
- =ieval= will simply evaluate the provided
- string/sexp as emacs lisp code. You
- must provide =ieval= with, firstly, the preceding
- code, which may be, for example, a function
- definition or package requires, etc. and,
- secondly, evaluated expression. Either
- argument can either be a raw string containing
- code or a sexp, but the expression will be
- "one-line-ized" for the prompt.
+=ieval= will simply evaluate the provided
+string/sexp as emacs lisp code. You
+must provide =ieval= with, firstly, the preceding
+code, which may be, for example, a function
+definition or package requires, etc. and,
+secondly, evaluated expression. Either
+argument can either be a raw string containing
+code or a sexp, but the expression will be
+"one-line-ized" for the prompt.
