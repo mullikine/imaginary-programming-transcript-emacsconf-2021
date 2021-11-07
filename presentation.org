@@ -160,6 +160,7 @@ Benefits:
 - Edit and re-imagine as you go see alternative website realities – change the sentiment of the author!
 - Peer into the future – read about things that haven't happened yet!
 
+*** Imaginary Computing: Paracosm vs Metaverse
 **** emacs
 + Rich media :: In the World Wide Web of the 90s and 00s, _rich media_
     was considered to be large files including
