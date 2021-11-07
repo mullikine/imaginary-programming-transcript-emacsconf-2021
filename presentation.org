@@ -425,7 +425,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+END_SRC
 #+latex: }
 
-**** Example. It's used as a primitive to =ilambda=
+**** Example. It's used as a primitive to the =ilambda.el= =ilambda=
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (ieval
