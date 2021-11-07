@@ -195,7 +195,8 @@ past times.
 *** Philosophy
 **** Structuralism: Language based on sign relations
 
-  #+BEGIN_SRC text -n :async :results verbatim code
+http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
+
     structural linguistics
     structuralism
         [#linguistics]
@@ -216,7 +217,6 @@ past times.
         self-regulating semiotic system whose
         elements are defined by their relationship
         to other elements within the system.
-  #+END_SRC
 
 * Preliminaries
 ** GPT-3
