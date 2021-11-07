@@ -82,7 +82,7 @@ languages.
 - [[https://www.youtube.com/watch?v=d-bvsJWmqlc][Demis Hassabis: creativity and AI]]
 
 * Imaginary Computing
-*** Emacs as a control-panel
+*** Emacs as a command-center for prompting
 **** Example: AI Art described by AI
 I use AlephAlpha’s multimodal LM to generate
 alttext for the eww web browser. This is in
