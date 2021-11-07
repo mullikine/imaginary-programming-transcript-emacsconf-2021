@@ -665,3 +665,11 @@ Macro expand.
         (message "%s + %si" r i))))
 #+END_SRC
 #+latex: }
+
+* In closing
+*** ilambda.el (EmacsConf 2021)
+**** Thank you
+Thank you for your attention. The purpose of
+this talk is show you how GitHub Copilot and
+similar magic tools will be built and to
+highlight you to risk and potential solutions.
