@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Presentation}{2}{0}{1}
+\beamer@sectionintoc {2}{Imaginary Programming (IP) with Emacs}{3}{0}{2}
+\beamer@sectionintoc {3}{Imaginary Computing}{4}{0}{3}
+\beamer@sectionintoc {4}{Imaginary Computing}{5}{0}{4}
+\beamer@sectionintoc {5}{Imaginary Computing}{6}{0}{5}
+\beamer@sectionintoc {6}{Imaginary Computing}{7}{0}{6}
+\beamer@sectionintoc {7}{Imaginary Computing}{8}{0}{7}
+\beamer@sectionintoc {8}{Imaginary Computing}{9}{0}{8}

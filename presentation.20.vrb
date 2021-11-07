@@ -1,0 +1,17 @@
+\frametitle{ilambda.el}
+\begin{block}{Code}
+An \texttt{IP} library named \texttt{𝑖lambda.el} for emacs.
+
+\begin{description}
+\item[{source}] \url{http://github.com/semiosis/pen.el/blob/master/src/ilambda.el}
+\item[{other languages (WIP)}] \url{http://github.com/semiosis/ilambda}
+\end{description}
+\end{block}
+
+\begin{block}{Explanation}
+\begin{itemize}
+\item a bit like a functional programming library
+in that you will find a set of functions and
+macros for working with LMs.
+\end{itemize}
+\end{block}

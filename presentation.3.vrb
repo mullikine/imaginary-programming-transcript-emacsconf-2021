@@ -1,0 +1,25 @@
+\frametitle{Imaginary Programming (IP) (EmacsConf 2021)}
+\begin{block}{Objectives}
+\begin{itemize}
+\item Explain \texttt{Imaginary Computing}
+\begin{itemize}
+\item AI imagination
+\item Discussing AI-generated artwork with an AI
+\item Intelligent NFTs
+\item Imaginary Web
+\begin{itemize}
+\item Paracosm vs Metaverse
+\end{itemize}
+\end{itemize}
+\item Explain the \texttt{Philosophy} of IP
+\begin{itemize}
+\item Simulacra and Science Fiction
+\item Truth (epistemology and alethiology)
+\item Structuralism: Language based on sign relations
+\end{itemize}
+\item \texttt{Demo} Imaginary Programming
+\begin{itemize}
+\item Demonstrate \texttt{ilambda.el}
+\end{itemize}
+\end{itemize}
+\end{block}
