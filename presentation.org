@@ -478,6 +478,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 Under the hood, =ilambda= uses =ieval=.
 
 **** =ilambda=
+#+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (defmacro ilambda (args code-or-task &optional task-or-code name-sym)
     "Define an imaginary lambda (𝑖λ)"
@@ -498,6 +499,7 @@ Under the hood, =ilambda= uses =ieval=.
   
   (defalias '𝑖λ 'ilambda)
 #+END_SRC
+#+latex: }
 
 *** =imacro= generates code
 #+latex: {\tiny
