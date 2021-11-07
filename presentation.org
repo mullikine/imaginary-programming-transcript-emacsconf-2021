@@ -294,7 +294,7 @@ http://github.com/semiosis/glossaries-gh/blob/master/semiotics.txt
 - i.e. this is an abstraction of language for decomposing language models into its basic useful units, rather than say individual neurons as NFTs.
 #+latex: }
 
-**** Applied structuralism: Functions descibed in terms of sign relations
+**** Applied structuralism: Imaginary programming functions
 Each =sNFT= is a _functor_ because it's meant to
 be called as a function, but has particular
 side-effects.
