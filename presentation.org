@@ -327,11 +327,13 @@ blockchains.
 * ilambda
 *** 𝑖λ (ilambda.el)
 **** 
-I design and build an =IP= library named
-=𝑖λ.el= for emacs. Think of it a bit like a
-functional programming library in that you
-will find a set of functions and macros for
-working in the programming paradigm. The
+An =IP= library named =𝑖λ.el= for emacs.
+
+- a bit like a functional programming library
+  in that you will find a set of functions and
+  macros for working with LMs.
+
+The
 objective here is to create some functions for
 doing IP in emacs lisp, since emacs lisp has
 the expressive power to prototype such things,
