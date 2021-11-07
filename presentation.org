@@ -55,7 +55,7 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 #+latex: }
 
 * Imaginary Programming with Emacs
-** emacsconf 2021
+** Based on Language Models
 LMs are our best friends in the AI model
 menagerie because they make things
 intelligible -- by understanding our textual
