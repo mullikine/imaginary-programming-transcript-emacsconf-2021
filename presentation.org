@@ -444,7 +444,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 *** =imacro= generates code
 #+latex: {\tiny
-An =imacro= with only a function name will generate the signature and macro body.
+An =imacro= with only a function name will generate code.
 
 Also, an =imacro= is under the hood a regular
 macro. This means, that expanding the =imacro=
