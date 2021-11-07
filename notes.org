@@ -146,8 +146,7 @@ Knowledge happens at compile-time (DNA, preprocessor, training).
 
 ** Data privacy
 The models find useful data from more than just your current file.
-
-https://mullikine.github.io/posts/imagine-a-project-with-codex/
+- https://mullikine.github.io/posts/imagine-a-project-with-codex/
 
 ** Freedom and GPL-3
 Problem with language models is they are so large and hidden behind SAAS.
