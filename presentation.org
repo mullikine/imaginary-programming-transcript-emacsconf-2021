@@ -336,3 +336,16 @@ An =IP= library named =𝑖λ.el= for emacs.
 + a bit like a functional programming library
   in that you will find a set of functions and
   macros for working with LMs.
+
+* ilambda
+*** 𝑖λ (ilambda.el)
+**** =ieval=
+ =ieval= will simply evaluate the provided
+ string/sexp as emacs lisp code. You
+ must provide =ieval= with, firstly, the preceding
+ code, which may be, for example, a function
+ definition or package requires, etc. and,
+ secondly, evaluated expression. Either
+ argument can either be a raw string containing
+ code or a sexp, but the expression will be
+ "one-line-ized" for the prompt.
