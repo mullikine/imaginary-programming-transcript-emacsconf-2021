@@ -318,7 +318,7 @@ but that is changing. I hope that soon
 language power will be hidden behind
 blockchains.
 
-**** Configure the language model
+**** Configure the language model / truth source
 [[./configure-model.png]]
 
 **** 𝑖λ (ilambda.el)
