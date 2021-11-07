@@ -41,6 +41,16 @@ https://tex.stackexchange.com/questions/327844/real-number-symbol-r-not-working/
 
 * Presentation
 *** Imaginary Programming (IP) (EmacsConf 2021)
+#+latex: {\tiny
+IP works currently thanks to another new field in AI
+namely 'prompt engineering', which itself has
+only been around for a couple of years now,
+but IP is not prompt engineering. We could,
+for instance, have humans behind the scenes
+doing the inference for us while employing
+=ieval=, =imacro= or =ilist=.
+#+latex: }
+
 **** Repositories for following along
 #+latex: {\tiny
 | http://github1s.com/semiosis/pen.el                                 |
