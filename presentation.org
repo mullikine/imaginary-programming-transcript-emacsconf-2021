@@ -301,23 +301,7 @@ macro does not have to be valid emacs lisp.
 #+end_src
 #+latex: }
 
-* Explanations
-** Using =pen.el=
-*** =pen.el=
-**** =pen.el=: Prompt Engineering in emacs
-
-#+latex: {\footnotesize
-=pen.el= facilitates the creation,
-development, discovery and usage of prompts to
-a Language Model such as GPT-3.
-
-- Create elisp functions based on GPT-3 prompts
-- Chain GPT-3 queries together using keyboard macros and functions
-- Interactively query, generate and transfrom both prose and code
-- Use GPT-3 as a search engine within emacs
-#+latex: }
-
-* Blockchain and a language model is all you need
+* ilambda
 *** Blockchain and a Language model is all you need
 A LM is only enough while we can agree on it,
 but that is changing. I hope that soon
