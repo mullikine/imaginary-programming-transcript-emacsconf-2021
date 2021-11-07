@@ -404,11 +404,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 
 * ilambda
 *** ilambda.el (EmacsConf 2021)
-**** =ieval=
-#+latex: {\tiny
-=ieval= will imagine the result of evaluating its body.
-#+latex: }
-
+**** =ieval= will imagine the result of evaluating its body.
 #+latex: {\tiny
 #+BEGIN_SRC yaml -n :async :results verbatim code
   task: "imagine evaluating emacs lisp"
@@ -434,6 +430,7 @@ An =IP= library named =𝑖lambda.el= for emacs.
 #+END_SRC
 #+latex: }
 
+**** Example
 #+latex: {\tiny
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (ieval
