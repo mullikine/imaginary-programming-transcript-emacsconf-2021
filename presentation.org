@@ -151,6 +151,25 @@ An imaginary-web browser for emacs.
   - Getting cozy with Mark Zuckerberg's imaginarium, an intellectual prison
 
 * Philosophy
+**** Simulacra and Science Fiction
+Jean Baudrillard speaks about the gap
+between the real and the imaginary.
+
+We no longer imagine a world radically
+different from the real one, but
+rather a world that's a mere expansion
+of the real one.
+
+In the postmodern society the gap
+between the real and the imaginary
+disappears completely, and we are no
+longer capable of ideal projections
+(of imagining new worlds).
+    
+We can only imagine mere
+reconfigurations of our world, or
+simply relive the ideal projections of
+past times.
 
 * Preliminaries
 ** GPT-3
