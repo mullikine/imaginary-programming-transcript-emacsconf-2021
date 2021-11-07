@@ -298,6 +298,8 @@ Each =sNFT= is a _functor_ because it's meant to
 be called as a function, but has particular
 side-effects.
 
+Imaginary programming
+
 * Freedom
 *** Imaginary Computing (IC) Freedom (EmacsConf 2021)
 **** Data privacy
