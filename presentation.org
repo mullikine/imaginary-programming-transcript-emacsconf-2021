@@ -517,7 +517,30 @@ Under the hood, =ilambda= uses =ieval=.
 #+end_src
 #+latex: }
 
-*** =imacro= generates code
+* ilambda
+*** ilambda.el (EmacsConf 2021)
+*** =idefun=
+
+#+latex: {\tiny
+The =idefun= creates a binding to an imaginary
+function. The implementation of the =idefun=
+need not be specified in order for code to
+run.
+
+The new prompt function returned by =idefun= is provided with arguments and the
+values of those arguments are taken and placed
+into a prompt. An implementation may be
+provided to =idefun= when defining the prompt function or optionally left out.
+Unlike an =imacro=, when the prompt function
+is evaluated the code is not returned. Rather,
+the code is evaluted in imaginary space.
+
+In short, the LM will imagine the evaluation
+of the function as opposed to generate code.
+#+latex: }
+
+
+**** =imacro= generates code
 #+latex: {\tiny
 Expanding the =imacro= either runtime or 
 =M-x macrostep-expand=
